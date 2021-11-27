@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NpcActionList>
+	<!--해적섬 「해적섬의 비밀」퀘스트 / 작은 상자-3번째 -->
+	<MakeItem Name="0" Class="PWEKDTB" NpcId="71067,71068,71069,71070,71071,71072" AmountInputable="false">
+		<Item Amount="1" ItemId="40716"/>
+		<Material Amount="1" ItemId="40701"/>
+		<Succeed>
+			<ShowHtml HtmlId="maptbox2"/>
+			<SetQuest Id="lukein" Step="11"/>
+			<SetQuest Id="tbox3" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「해적섬의 비밀」퀘스트 / 루케 인-->
+	<MakeItem Name="1" Class="PWEKDTB" NpcId="71055" AmountInputable="false">
+		<Item Amount="1" ItemId="20269"/>
+		<Material Amount="1" ItemId="40716"/>
+		<Succeed>
+			<ShowHtml HtmlId="lukein0"/>
+			<SetQuest Id="lukein" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「의 땅3」퀘스트 / 레스터-->
+	<MakeItem Name="D" Class="PWEKDTB" NpcId="71060" AmountInputable="false">
+		<Item Amount="1" ItemId="40647"/>
+		<Material Amount="1" ItemId="40631"/>
+		<Succeed>
+			<ShowHtml HtmlId="resta15"/>
+			<SetQuest Id="resta" Step="End"/>
+		</Succeed>
+	</MakeItem>	
+	<!--해적섬 「의 땅4」퀘스트 / 카좀스-->
+	<MakeItem Name="B" Class="PWEKDTB" NpcId="71061" AmountInputable="false">
+		<Item Amount="1" ItemId="40692"/>
+		<Material Amount="1" ItemId="40711"/>
+		<Succeed>
+			<ShowHtml HtmlId=""/>
+			<SetQuest Id="cadmus" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「드레이크의」퀘스트 / 신라 /명의-->
+	<MakeItem Name="g" Class="PWEKDTB" NpcId="71036" AmountInputable="false" QuestId="kamyla" QuestStep="4">
+		<Item Amount="1" ItemId="33"/>
+		<Material Amount="1" ItemId="40717"/>
+		<Succeed>
+			<ShowHtml HtmlId="kamyla25"/>
+			<SetQuest Id="kamyla" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「드레이크의」퀘스트 / 신라 /아비스 듀얼 치우침드-->
+	<MakeItem Name="h" Class="PWEKDTB" NpcId="71036" AmountInputable="false" QuestId="kamyla" QuestStep="4">
+		<Item Amount="1" ItemId="79"/>
+		<Material Amount="1" ItemId="40717"/>
+		<Succeed>
+			<ShowHtml HtmlId="kamyla25"/>
+			<SetQuest Id="kamyla" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「드레이크의」퀘스트 / 신라 /사일런트 크로스보워-->
+	<MakeItem Name="i" Class="PWEKDTB" NpcId="71036" AmountInputable="false" QuestId="kamyla" QuestStep="4">
+		<Item Amount="1" ItemId="178"/>
+		<Material Amount="1" ItemId="40717"/>
+		<Succeed>
+			<ShowHtml HtmlId="kamyla25"/>
+			<SetQuest Id="kamyla" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「드레이크의」퀘스트 / 신라 /옻나무의 수정-->
+	<MakeItem Name="j" Class="PWEKDTB" NpcId="71036" AmountInputable="false" QuestId="kamyla" QuestStep="4">
+		<Item Amount="1" ItemId="118"/>
+		<Material Amount="1" ItemId="40717"/>
+		<Succeed>
+			<ShowHtml HtmlId="kamyla25"/>
+			<SetQuest Id="kamyla" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「드레이크의」퀘스트 / 신라 /신의의 방패-->
+	<MakeItem Name="k" Class="PWEKDTB" NpcId="71036" AmountInputable="false" QuestId="kamyla" QuestStep="4">
+		<Item Amount="1" ItemId="20234"/>
+		<Material Amount="1" ItemId="40717"/>
+		<Succeed>
+			<ShowHtml HtmlId="kamyla25"/>
+			<SetQuest Id="kamyla" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--해적섬 「리자드만의 선물」퀘스트 / 리자드만의 장로 /리자드망로브-->
+	<MakeItem Name="C" Class="PWEKDTB" NpcId="71074" AmountInputable="false" QuestId="lizard" QuestStep="3">
+		<Item Amount="1" ItemId="20167"/>
+		<Material Amount="1" ItemId="40634"/>
+		<Succeed>
+			<ShowHtml HtmlId="lelder13"/>
+			<SetQuest Id="lizard" Step="End"/>
+		</Succeed>
+	</MakeItem>
+    <!--업 퀘스트 / 더러워진 브롭브-->
+    <MakeItem Name="k" Class="PWEKDTB" NpcId="81208" AmountInputable="false" QuestId="desire" QuestStep="1">
+        <Item Amount="1" ItemId="41138"/>
+        <Material Amount="1" ItemId="41135"/>
+        <Material Amount="1" ItemId="41136"/>
+        <Material Amount="1" ItemId="41137"/>
+        <Succeed>
+           <ShowHtml HtmlId="minibrob03"/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 더러워진 브롭브-->
+    <MakeItem Name="k" Class="PWEKDTB" NpcId="81208" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41129"/>
+        <Material Amount="1" ItemId="41126"/>
+        <Material Amount="1" ItemId="41127"/>
+        <Material Amount="1" ItemId="41128"/>
+        <Succeed>
+           <ShowHtml HtmlId="minibrob03"/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(사막의 무덤)-->
+    <MakeItem Name="request mtosr1" Class="PWEKDTB" NpcId="46069" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41126"/>
+        <Material Amount="1" ItemId="41123"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(파즈)-->
+    <MakeItem Name="request mtosr3" Class="PWEKDTB" NpcId="46070" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41128"/>
+        <Material Amount="1" ItemId="41125"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(파사즈)-->
+    <MakeItem Name="request mtosr2" Class="PWEKDTB" NpcId="46072" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41127"/>
+        <Material Amount="1" ItemId="41124"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(지의 시바 인)-->
+    <MakeItem Name="request mtosr2" Class="PWEKDTB" NpcId="46074" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41127"/>
+        <Material Amount="1" ItemId="41124"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(풍의 시바 인)-->
+    <MakeItem Name="request mtosr3" Class="PWEKDTB" NpcId="46075" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41128"/>
+        <Material Amount="1" ItemId="41125"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(불의 시바 인)-->
+    <MakeItem Name="request mtosr1" Class="PWEKDTB" NpcId="46076" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41126"/>
+        <Material Amount="1" ItemId="41123"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(수의 시바 인)-->
+    <MakeItem Name="request mtosr2" Class="PWEKDTB" NpcId="46077" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41127"/>
+        <Material Amount="1" ItemId="41124"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(디 안 가스)-->
+    <MakeItem Name="request mtosr1" Class="PWEKDTB" NpcId="46078" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41126"/>
+        <Material Amount="1" ItemId="41123"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(안 가스)-->
+    <MakeItem Name="request mtosr2" Class="PWEKDTB" NpcId="46079" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41127"/>
+        <Material Amount="1" ItemId="41124"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(쥬디고)-->
+    <MakeItem Name="request mtosr1" Class="PWEKDTB" NpcId="46080" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41126"/>
+        <Material Amount="1" ItemId="41123"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(디고)-->
+    <MakeItem Name="request mtosr2" Class="PWEKDTB" NpcId="46076" AmountInputable="false" QuestId="shadows" QuestStep="1">
+        <Item Amount="1" ItemId="41127"/>
+        <Material Amount="1" ItemId="41124"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(렛사데몬)-->
+    <MakeItem Name="request mcodr3" Class="PWEKDTB" NpcId="46092" AmountInputable="false" QuestId="desire" QuestStep="1">
+        <Item Amount="1" ItemId="41137"/>
+        <Material Amount="1" ItemId="41134"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(데몬)-->
+    <MakeItem Name="request mcodr3" Class="PWEKDTB" NpcId="46093" AmountInputable="false" QuestId="desire" QuestStep="1">
+        <Item Amount="1" ItemId="41137"/>
+        <Material Amount="1" ItemId="41134"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+　　<!--업 퀘스트 / 선택되지 않았던 사람(바포멧트)-->
+　　<MakeItem Name="request mcodr2" Class="PWEKDTB" NpcId="46094" AmountInputable="false" QuestId="desire" QuestStep="1">
+　　　　<Item Amount="1" ItemId="41136"/>
+　　　　<Material Amount="1" ItemId="41133"/>
+　　　　<Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(레스)-->
+    <MakeItem Name="request mcodr2" Class="PWEKDTB" NpcId="46095" AmountInputable="false" QuestId="desire" QuestStep="1">
+        <Item Amount="1" ItemId="41136"/>
+        <Material Amount="1" ItemId="41133"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+    <!--업 퀘스트 / 선택되지 않았던 사람(사큐바스)-->
+    <MakeItem Name="request mcodr1" Class="PWEKDTB" NpcId="46096" AmountInputable="false" QuestId="desire" QuestStep="1">
+        <Item Amount="1" ItemId="41135"/>
+        <Material Amount="1" ItemId="41132"/>
+        <Succeed>
+           <ShowHtml HtmlId=""/>
+        </Succeed>
+    </MakeItem>
+	<!--말하는두루마리step2 / 레크만-->
+	<MakeItem Name="0" Class="KEDB" NpcId="50113" AmountInputable="false">
+		<Item Amount="1" ItemId="174"/>
+		<Item Amount="5" ItemId="40101"/>
+		<Item Amount="5" ItemId="40082"/>
+		<Item Amount="1000" ItemId="40743"/>
+		<Item Amount="10000" ItemId="40308"/>
+		<Item Amount="50" ItemId="40029"/>
+		<Item Amount="10" ItemId="40030"/>
+		<Item Amount="30" ItemId="40098"/>
+		<Item Amount="1" ItemId="35"/>
+		<Item Amount="1" ItemId="48"/>
+		<Item Amount="1" ItemId="147"/>
+		<Item Amount="1" ItemId="105"/>
+		<Item Amount="1" ItemId="7"/>
+		<Item Amount="1" ItemId="175"/>
+		<Item Amount="1" ItemId="73"/>
+		<Item Amount="1" ItemId="156"/>
+		<Item Amount="1" ItemId="20028"/>
+		<Item Amount="1" ItemId="20082"/>
+		<Item Amount="1" ItemId="20126"/>
+		<Item Amount="1" ItemId="20173"/>
+		<Item Amount="1" ItemId="20206"/>
+		<Item Amount="1" ItemId="20232"/>
+		<Item Amount="1" ItemId="20282"/>
+		<Material Amount="1" ItemId="40641"/>
+		<Succeed>
+			<ShowHtml HtmlId="orena5"/>
+			<SetQuest Id="firstquest" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--말하는두루마리step2 / 세리안-->
+	<MakeItem Name="0" Class="PWT" NpcId="50112" AmountInputable="false">
+		<Item Amount="1" ItemId="174"/>
+		<Item Amount="5" ItemId="40101"/>
+		<Item Amount="5" ItemId="40082"/>
+		<Item Amount="1000" ItemId="40743"/>
+		<Item Amount="10000" ItemId="40308"/>
+		<Item Amount="50" ItemId="40029"/>
+		<Item Amount="10" ItemId="40030"/>
+		<Item Amount="30" ItemId="40098"/>
+		<Item Amount="1" ItemId="35"/>
+		<Item Amount="1" ItemId="48"/>
+		<Item Amount="1" ItemId="147"/>
+		<Item Amount="1" ItemId="105"/>
+		<Item Amount="1" ItemId="7"/>
+		<Item Amount="1" ItemId="175"/>
+		<Item Amount="1" ItemId="73"/>
+		<Item Amount="1" ItemId="156"/>
+		<Item Amount="1" ItemId="20028"/>
+		<Item Amount="1" ItemId="20082"/>
+		<Item Amount="1" ItemId="20126"/>
+		<Item Amount="1" ItemId="20173"/>
+		<Item Amount="1" ItemId="20206"/>
+		<Item Amount="1" ItemId="20232"/>
+		<Item Amount="1" ItemId="20282"/>
+		<Material Amount="1" ItemId="40641"/>
+		<Succeed>
+			<ShowHtml HtmlId="orenb5"/>
+			<SetQuest Id="firstquest" Step="End"/>
+		</Succeed>
+	</MakeItem>
+	<!--흑왕도 / 카리프-->
+	<MakeItem Name="quest 32 karif4" Class="D" NpcId="70762" AmountInputable="false">
+			<Item Amount="1" ItemId="84"/>
+			<Material Amount="1" ItemId="40466"/>
+			<Material Amount="3" ItemId="40053"/>
+			<Material Amount="100000" ItemId="40308"/>
+			<Material Amount="10" ItemId="40402"/>
+			<Material Amount="9" ItemId="40413"/>
+			<Material Amount="3" ItemId="40525"/>
+			<Material Amount="1" ItemId="81"/>
+	</MakeItem>
+	<!--흑왕아 / 카리프-->
+	<MakeItem Name="quest 32 karif5" Class="D" NpcId="70762" AmountInputable="false">
+			<Item Amount="1" ItemId="164"/>
+			<Material Amount="1" ItemId="40466"/>
+			<Material Amount="3" ItemId="40055"/>
+			<Material Amount="100000" ItemId="40308"/>
+			<Material Amount="10" ItemId="40404"/>
+			<Material Amount="9" ItemId="40413"/>
+			<Material Amount="3" ItemId="40525"/>
+			<Material Amount="1" ItemId="162"/>
+	</MakeItem>
+	<!--흑왕궁 / 카리프-->
+	<MakeItem Name="quest 32 karif6" Class="D" NpcId="70762" AmountInputable="false">
+			<Item Amount="1" ItemId="189"/>
+			<Material Amount="1" ItemId="40466"/>
+			<Material Amount="3" ItemId="40054"/>
+			<Material Amount="100000" ItemId="40308"/>
+			<Material Amount="10" ItemId="40403"/>
+			<Material Amount="9" ItemId="40413"/>
+			<Material Amount="3" ItemId="40525"/>
+			<Material Amount="1" ItemId="177"/>
+	</MakeItem>
+</NpcActionList>

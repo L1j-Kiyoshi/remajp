@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="EUC-KR"?>
+<project name="L1J" default="all" basedir=".">
+	<!-- Set Property -->
+	<property name="src.dir" value="src"/>
+	<property name="lib.dir" value="lib"/>
+	<property name="build.dir" value="build"/>
+	<property name="jarfile" value="l1jserver.jar"/>
+	<path id="classpath">
+		<fileset dir="${lib.dir}">
+			<include name="c3p0-0.9.1.2.jar"/>
+			<include name="javolution-5.5.1.jar"/>
+			<include name="mysql-connector-java-5.1.15-bin.jar"/>
+			<include name="xmlapi.jar"/>
+			<include name="netty-3.9.5.Final.jar"/>
+			<include name="org.eclipse.swt.win32.win32.x86_64_3.100.1.v4234e.jar"/>
+		</fileset>
+	</path>
+	<!-- Set DefaultTarget -->
+	<target name="all" depends="clean,compile,jar,clean2"/>
+	<!-- clean Target -->
+	<target name="clean">
+		<delete dir="${build.dir}"/>
+	</target>
+	<!-- Compile Target -->
+	<target name="compile">
+		<mkdir dir="${build.dir}"/>
+		<javac destdir="${build.dir}" optimize="on" includeantruntime="false" encoding="euc-kr" debug="yes">
+			<src path="${src.dir}"/>
+			<classpath refid="classpath"/>
+		</javac>
+	</target>
+	<!-- jar Target -->
+	<target name="jar">
+		<jar manifest="${src.dir}/META-INF/MANIFEST.MF" basedir="${build.dir}" jarfile="${jarfile}"/>
+	</target>
+	<!-- clean Target -->
+	<target name="clean2">
+		<delete dir="${build.dir}"/>
+	</target>
+</project>

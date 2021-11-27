@@ -1,0 +1,9 @@
+[Tungusca] : -warp sdf
+[Tungusca] : -warp 3
+[Tungusca] : sdfsdf
+[Tungusca] : Vaya pasada de cliente...
+[Maguita] : -albuff
+[Maguita] : -allbuff
+[Maguita] : -allbuff
+[Maguita] : \.level 80
+[Maguita] : -invis

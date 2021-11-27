@@ -1,0 +1,3 @@
+@echo off & color 0E
+@@java -Xms1G -Xmx2G -XX:SurvivorRatio=16 -XX:+UseG1GC -cp l1jserver.jar;lib\c3p0-0.9.1.2.jar;lib\javolution-5.5.1.jar;lib\mysql-connector-java-5.1.15-bin.jar;lib\xmlapi.jar;lib\netty-3.9.5.Final.jar;lib\org.eclipse.swt.win32.win32.x86_64_3.100.1.v4234e.jar -Djavax.xml.parsers.SAXParserFactory=com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl manager.LinAllManager
+@pause

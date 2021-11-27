@@ -1,0 +1,2648 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<NpcActionList>
+	<!-- 악세(보석)	:	복원된고대목걸이 -->
+	<Action Name="1729">
+		<MakeItem>
+		 <Item Amount="1" ItemId="41140"/>복원된고대목걸이
+		 <Material Amount="1" ItemId="41139" />볼품없는고대목걸이
+		 <Material Amount="1" ItemId="49028" />타로스의루비
+		 <Material Amount="1" ItemId="49030" />타로소의에메랄드
+		 <Material Amount="1" ItemId="49029" />타로스의사파이어
+		</MakeItem>
+	</Action>
+         
+        <!-- 바무트 : 저주의 피혁 -->
+	<Action Name="3873">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40404"/>
+		 <Material Amount="5" ItemId="40398" />		키메라가죽5
+		 <Material Amount="500" ItemId="40308" />	아데나500
+		</MakeItem>
+	</Action>
+
+	<!-- 악세(보석)	:	빛나는고대목걸이 -->
+	<Action Name="1730">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20422"/>빛나는고대목걸이
+		 <Material Amount="1" ItemId="41140" />복원된고대목걸이
+		 <Material Amount="1" ItemId="49027" />타로스의다이아몬드
+		</MakeItem>
+	</Action>
+
+        <!-- 악세(보석)	:	완성된 라스타바드 역사서 -->
+	<Action Name="56">
+		<MakeItem>
+		 <Item Amount="1" ItemId="41027"/>완성된 라스타바드 역사서
+		 <Material Amount="1" ItemId="41019" />
+		 <Material Amount="1" ItemId="41020" />
+		 <Material Amount="1" ItemId="41021" />
+		 <Material Amount="1" ItemId="41022" />
+		 <Material Amount="1" ItemId="41023" />
+		 <Material Amount="1" ItemId="41024" />
+		 <Material Amount="1" ItemId="41025" />
+		 <Material Amount="1" ItemId="41026" />
+		</MakeItem>
+	</Action>
+
+	<!-- 악세(보석)	:	군왕의지령반지 -->
+	<Action Name="1734">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20447"/>지령반지
+		 <Material Amount="1" ItemId="60215" />부서진지진반지
+		 <Material Amount="1" ItemId="20300" />지령의반지
+		 <Material Amount="20000" ItemId="41246" />결정체
+		</MakeItem>
+	</Action>
+
+	<!-- 악세(보석)	:	군왕의수령반지 -->
+	<Action Name="1735">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20448"/>풍령반지
+		 <Material Amount="1" ItemId="60216" />부서진폭풍의반지
+		 <Material Amount="1" ItemId="20285" />풍령의반지
+		 <Material Amount="20000" ItemId="41246" />결정체
+		</MakeItem>
+	</Action>
+
+	<!-- 악세(보석)	:	군왕의풍령반지 -->
+	<Action Name="1736">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20450"/>풍령반지
+		 <Material Amount="1" ItemId="60216" />부서진폭풍의반지
+		 <Material Amount="1" ItemId="20302" />풍령의반지
+		 <Material Amount="20000" ItemId="41246" />결정체
+		</MakeItem>
+	</Action>
+
+	<!-- 악세(보석)	:	군왕의화령반지 -->
+	<Action Name="1737">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20449"/>화령반지
+		 <Material Amount="1" ItemId="60213" />부서진화염의반지
+		 <Material Amount="1" ItemId="20304" />화령의;반지
+		 <Material Amount="20000" ItemId="41246" />결정체
+		</MakeItem>
+	</Action>
+
+
+
+	<!-- 서큐버스	:	서큐버스의 계약 -->
+	<Action Name="2879">
+		<MakeItem>
+		 <Item Amount="1" ItemId="47123"/>서큐버스의 계약
+		 <Material Amount="1" ItemId="149027" />	마물의 기운
+		 <Material Amount="1" ItemId="8020" />		환생의 모석
+		</MakeItem>
+	</Action>
+
+	<!-- 서큐버스	:	서큐버스퀸의 계약 -->
+	<Action Name="2880">
+		<MakeItem>
+		 <Item Amount="1" ItemId="471255"/>	서큐버스의 계약
+		 <Material Amount="3" ItemId="149027" />	마물의 기운
+		 <Material Amount="3" ItemId="8020" />		환생의 모석
+		</MakeItem>
+	</Action>
+	<!-- 아델리오	:	집행검 -->
+	<Action Name="46">
+		<MakeItem>
+		 <Item Amount="1" ItemId="61"/>집행
+		 <Material Amount="1" ItemId="40965" />		라스타바드 무기제작 비법서
+		 <Material Amount="1" ItemId="62" />		무관의 양손검
+		 <Material Amount="10" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="50" ItemId="40964" />	흑마법 가루
+		 <Material Amount="100" ItemId="40967" />	성지의 유물
+		 <Material Amount="10" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="300" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+
+	<!-- 아델리오	:	바람칼단검 -->
+	<Action Name="47">
+		<MakeItem>
+		 <Item Amount="1" ItemId="12"/>바칼
+		 <Material Amount="1" ItemId="40965" />		라스타바드 무기제작 비법서
+		 <Material Amount="1" ItemId="49" />		무관의 장검
+		 <Material Amount="10" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="50" ItemId="40964" />	흑마법 가루
+		 <Material Amount="100" ItemId="40967" />	성지의 유물
+		 <Material Amount="10" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="300" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+
+		<!-- 아델리오	:	붉이 -->
+	<Action Name="48">
+		<MakeItem>
+		 <Item Amount="1" ItemId="86"/>붉이
+		 <Material Amount="1" ItemId="40965" />		라스타바드 무기제작 비법서
+		 <Material Amount="1" ItemId="84" />		흑왕도
+		 <Material Amount="10" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="50" ItemId="40964" />	흑마법 가루
+		 <Material Amount="100" ItemId="40967" />	성지의 유물
+		 <Material Amount="10" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="300" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+			<!-- 아델리오	:	수지 -->
+	<Action Name="49">
+		<MakeItem>
+		 <Item Amount="1" ItemId="134"/>수지
+		 <Material Amount="1" ItemId="40965" />		라스타바드 무기제작 비법서
+		 <Material Amount="1" ItemId="132" />		신관의지팡이
+		 <Material Amount="10" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="50" ItemId="40964" />	흑마법 가루
+		 <Material Amount="100" ItemId="40967" />	성지의 유물
+		 <Material Amount="10" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="300" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+
+			<!-- 아델리오	:	진명황장갑 -->
+	<Action Name="50">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20410"/>진명황의 장갑
+		 <Material Amount="1" ItemId="40966" />		진명황의 방어구 비법서
+		 <Material Amount="1" ItemId="20168" />		무관의 장갑
+		 <Material Amount="3" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="30" ItemId="40964" />	흑마법 가루
+		 <Material Amount="50" ItemId="40968" />	수행자의 경전
+		 <Material Amount="3" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="30" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="100" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+
+	<!-- 아델리오	:	진명황갑옷 -->
+	<Action Name="51">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20395"/>			진명황의 갑옷
+		 <Material Amount="1" ItemId="40966" />		진명황의 방어구 비법서
+		 <Material Amount="1" ItemId="20113" />		무관의 갑옷
+		 <Material Amount="10" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="50" ItemId="40964" />	흑마법 가루
+		 <Material Amount="100" ItemId="40968" />	수행자의 경전
+		 <Material Amount="10" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="300" ItemId="40969" />	영혼의 결정체
+		  <Material Amount="10" ItemId="40052" />	최고급다야
+		</MakeItem>
+	</Action>
+
+		<!-- 아델리오	:	진명황부츠 -->
+	<Action Name="52">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20408"/>			진명황의 부츠
+		 <Material Amount="1" ItemId="40966" />		진명황의 방어구 비법서
+		 <Material Amount="1" ItemId="20201" />		무관의 부츠
+		 <Material Amount="4" ItemId="40445" />	블랙 미스릴 판금
+		 <Material Amount="30" ItemId="40964" />	흑마법 가루
+		 <Material Amount="50" ItemId="40968" />	수행자의 경전
+		 <Material Amount="3" ItemId="40525" />	그랑카인의 눈물
+		 <Material Amount="30" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="100" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+			<!-- 아델리오	:	진명황투구 -->
+	<Action Name="53">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20390"/>			진명황의 투구
+		 <Material Amount="1" ItemId="40966" />		진명황의 방어구 비법서
+		 <Material Amount="1" ItemId="20020" />		무관의 투구
+		 <Material Amount="5" ItemId="40445" />		블랙 미스릴 판금
+		 <Material Amount="30" ItemId="40964" />	흑마법 가루
+		 <Material Amount="50" ItemId="40968" />	수행자의 경전
+		 <Material Amount="3" ItemId="40525" />		그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="100" ItemId="40969" />	영혼의 결정체
+		</MakeItem>
+	</Action>
+
+	<!-- 아델리오	:	진명황망토 -->
+	<Action Name="55">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20402"/>			진명황의 망토
+		 <Material Amount="1" ItemId="40966" />		진명황의 방어구 비법서
+		 <Material Amount="1" ItemId="20058" />		무관의 망토
+		 <Material Amount="3" ItemId="40445" />		블랙 미스릴 판금
+		 <Material Amount="10" ItemId="40964" />	흑마법 가루
+		 <Material Amount="30" ItemId="40968" />	수행자의 경전
+		 <Material Amount="3" ItemId="40525" />		그랑카인의 눈물
+		 <Material Amount="50" ItemId="40677" />	어둠의 주괴
+		 <Material Amount="100" ItemId="40969" />	영혼의 결정체
+		 <Material Amount="20" ItemId="40652" />	불타는가죽
+		</MakeItem>
+	</Action>
+       
+        <!-- 아델리오	:	어둠의주괴 -->
+	<Action Name="54">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40677"/>	어둠의주괴
+		 <Material Amount="100" ItemId="40675" />	어둠의광석
+		</MakeItem>
+	</Action>
+
+        <!-- 디오	:	환생의보석 -->
+	<Action Name="2739">
+		<MakeItem>
+		 <Item Amount="1" ItemId="8020"/>
+		 <Material Amount="1" ItemId="40052" />	
+		 <Material Amount="1" ItemId="40055" />	환생의보석
+		 <Material Amount="1" ItemId="40053" />	환생의보석
+		 <Material Amount="1" ItemId="40054" />	환생의보석
+		 <Material Amount="1" ItemId="149027" />환생의보석
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	환생의보석주머니 -->
+	<Action Name="2792">
+		<MakeItem>
+		 <Item Amount="1" ItemId="8022"/>
+		 <Material Amount="1" ItemId="8020" />	환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 디오	:	고급다이아몬드 -->
+	<Action Name="2731">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40048"/>
+		 <Material Amount="3" ItemId="40044" />		다이아몬드
+		 <Material Amount="250" ItemId="40308" />	아데나250
+		</MakeItem>
+	</Action>
+	<!-- 디오	:	고급에메랄드 -->
+	<Action Name="2732">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40051"/>
+		 <Material Amount="3" ItemId="40047" />		에메랄드
+		 <Material Amount="250" ItemId="40308" />	아데나250
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	고급루비 -->
+	<Action Name="2733">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40049"/>
+		 <Material Amount="3" ItemId="40045" />		루비
+		 <Material Amount="250" ItemId="40308" />	아데나250
+		</MakeItem>
+	</Action>
+	<!-- 디오	:	고급사파이어 -->
+	<Action Name="2734">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40050"/>
+		 <Material Amount="3" ItemId="40046" />		사파이어
+		 <Material Amount="250" ItemId="40308" />	아데나250
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	최고급다이아몬드 -->
+	<Action Name="2735">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40052"/>
+		 <Material Amount="3" ItemId="40048" />		다이아몬드
+		 <Material Amount="2500" ItemId="40308" />	아데나2500
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	최고급에메랄드 -->
+	<Action Name="2736">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40055"/>
+		 <Material Amount="3" ItemId="40051" />		에메랄드
+		 <Material Amount="2500" ItemId="40308" />	아데나2500
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	최고급루비 -->
+	<Action Name="2737">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40053"/>
+		 <Material Amount="3" ItemId="40049" />		루비
+		 <Material Amount="2500" ItemId="40308" />	아데나2500
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	최고급사파이어 -->
+	<Action Name="2738">
+		<MakeItem>
+		 <Item Amount="1" ItemId="40054"/>
+		 <Material Amount="3" ItemId="40050" />		사파이어
+		 <Material Amount="2500" ItemId="40308" />	아데나2500
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	극한의티아라원석 -->
+	<Action Name="2788">
+		<MakeItem>
+		 <Item Amount="1" ItemId="6010"/>
+		 <Material Amount="1" ItemId="6002" />		매력적인티아라
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	극한의샌달원석 -->
+	<Action Name="2789">
+		<MakeItem>
+		 <Item Amount="1" ItemId="6012"/>
+		 <Material Amount="1" ItemId="6006" />		매력적인샌달
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	드래곤의다이아몬드 -->
+	<Action Name="2790">
+		<MakeItem>
+		 <Item Amount="1" ItemId="437010"/>
+		 <Material Amount="1" ItemId="5000067" />	드래곤의에메랄드
+		</MakeItem>
+	</Action>
+
+	<!-- 디오	:	드래곤의보물상자 -->
+	<Action Name="2791">
+		<MakeItem>
+		 <Item Amount="1" ItemId="437009"/>
+		 <Material Amount="1" ItemId="5000068" />	드래곤의에메랄드
+		</MakeItem>
+	</Action>
+
+	<!-- 류미엘 -->
+	<Action Name="238"> <!-- 글로잉웨폰 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40227"/>
+		 <Material Amount="1" ItemId="40162" />		골렘의 숨결
+		 <Material Amount="1" ItemId="40413" />		얼음여왕의 숨결
+		 <Material Amount="1" ItemId="40169" />		드레이크의 숨결
+		 <Material Amount="1" ItemId="40409" />		불새의 숨결
+		</MakeItem>
+	</Action>
+
+	<Action Name="241"> <!-- 런클랜 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40231"/>
+		 <Material Amount="3" ItemId="40162" />		골렘의 숨결
+		 <Material Amount="3" ItemId="40413" />		얼음여왕의 숨결
+		 <Material Amount="3" ItemId="40169" />		드레이크의 숨결
+		 <Material Amount="3" ItemId="40409" />		불새의 숨결
+		</MakeItem>
+	</Action>
+
+	<Action Name="240"> <!-- 브레이브멘탈 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40230"/>
+		 <Material Amount="2" ItemId="40162" />		골렘의 숨결
+		 <Material Amount="2" ItemId="40413" />		얼음여왕의 숨결
+		 <Material Amount="2" ItemId="40169" />		드레이크의 숨결
+		 <Material Amount="2" ItemId="40409" />		불새의 숨결
+		</MakeItem>
+	</Action>
+
+	<Action Name="239"> <!-- 샤이닝 실드 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40229"/>
+		 <Material Amount="4" ItemId="40162" />		골렘의 숨결
+		 <Material Amount="4" ItemId="40413" />		얼음여왕의 숨결
+		 <Material Amount="4" ItemId="40169" />		드레이크의 숨결
+		 <Material Amount="4" ItemId="40409" />		불새의 숨결
+		</MakeItem>
+	</Action>
+
+	
+
+	<Action Name="237"> <!-- 그랑카인의 눈물 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40525"/>
+		 <Material Amount="1" ItemId="40443" />		블랙미스릴
+		 <Material Amount="1" ItemId="40324" />		암황석
+		 <Material Amount="3" ItemId="40524" />		검은혈흔
+		</MakeItem>
+	</Action>
+
+	<Action Name="236"> <!-- 달빛의 눈물 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40428"/>
+		 <Material Amount="5" ItemId="40458" />		빛나는비늘
+		 <Material Amount="1" ItemId="40047" />		에메랄드
+		 <Material Amount="1000" ItemId="40308" />		아데나
+		</MakeItem>
+	</Action>
+
+	<Action Name="235"> <!-- 강화 속도향상 물약 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40018"/>
+		 <Material Amount="6" ItemId="40013" />		속도향상물약
+		 <Material Amount="500" ItemId="40308" />		아데나
+		</MakeItem>
+	</Action>
+
+	<Action Name="228"> <!-- 골렘의 숨결 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40162"/>
+		 <Material Amount="5" ItemId="40304" />		마프르유산
+		 <Material Amount="10" ItemId="40044" />		다이아몬드
+		 <Material Amount="5000" ItemId="40308" />		아데나
+		</MakeItem>
+	</Action>
+
+	<Action Name="230"> <!-- 드레이크의 숨결 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40162"/>
+		 <Material Amount="5" ItemId="40307" />		사이하유산
+		 <Material Amount="10" ItemId="40046" />		사파이어
+		 <Material Amount="5000" ItemId="40308" />		아데나
+		</MakeItem>
+	</Action>
+
+
+	<Action Name="231"> <!-- 불새의 숨결 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40162"/>
+		 <Material Amount="5" ItemId="40305" />		파아그리오유산
+		 <Material Amount="10" ItemId="40045" />		루비
+		 <Material Amount="5000" ItemId="40308" />		아데나
+		</MakeItem>
+	</Action>
+
+	<Action Name="229"> <!-- 얼음여왕의 숨결 -->
+		<MakeItem>
+		 <Item Amount="1" ItemId="40162"/>
+		 <Material Amount="5" ItemId="40306" />		에바의유산
+		 <Material Amount="10" ItemId="40047" />		에메랄드
+		 <Material Amount="5000" ItemId="40308" />		아데나
+		</MakeItem>
+	</Action>
+
+
+	
+	<!-- 네루파	:	악몽의장궁 -->
+	<Action Name="2861">
+		<MakeItem>
+		 <Item Amount="1" ItemId="293"/>
+		 <Material Amount="1" ItemId="40370" />			린드비오르숨결
+		 <Material Amount="250" ItemId="7244" />		마력의실타래
+		 <Material Amount="500" ItemId="149027" />		마물의기운
+		 <Material Amount="250" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+
+	<!-- 네루파	:	달의장궁 -->
+	<Action Name="2759">
+		<MakeItem>
+		 <Item Amount="1" ItemId="205"/>
+		 <Material Amount="5" ItemId="40395" />	수룡비늘
+		 <Material Amount="50" ItemId="7244" />	마력의실타래
+		 <Material Amount="100" ItemId="8020" />	환생의보석
+		</MakeItem>
+	</Action>
+
+		<!-- 네루파	:	사이하의활 -->
+	<Action Name="211">
+		<MakeItem>
+		 <Item Amount="1" ItemId="190"/>
+		 <Material Amount="5" ItemId="40394" />	수룡비늘
+		 <Material Amount="50" ItemId="7244" />	마력의실타래
+		 <Material Amount="100" ItemId="8020" />	환생의보석
+		</MakeItem>
+	</Action>
+        <!-- 네루파	:	장궁 -->
+	<Action Name="173">
+		<MakeItem>
+		 <Item Amount="1" ItemId="181"/>
+		 <Material Amount="6" ItemId="40509" />	오리하루콘판금
+		 <Material Amount="2" ItemId="40051" />	고급에메
+		 <Material Amount="1" ItemId="100" />	오리하루콘 도금
+		 <Material Amount="1" ItemId="40048" />
+		 <Material Amount="40" ItemId="40495" />
+		 <Material Amount="5" ItemId="40504" />
+		</MakeItem>
+	</Action>
+        <!-- 네루파	:	페어리더스트 -->
+	<Action Name="183">
+		<MakeItem>
+		 <Item Amount="20" ItemId="40520"/>
+		 <Material Amount="1" ItemId="40515" />
+		</MakeItem>
+	</Action>
+        <!-- 네루파	: 미스릴화살 -->
+	<Action Name="184">
+		<MakeItem>
+		 <Item Amount="2000" ItemId="40746"/>
+		 <Material Amount="100" ItemId="40494" />
+		 <Material Amount="1" ItemId="40779" />
+		 <Material Amount="10" ItemId="40507" />
+		</MakeItem>
+	</Action>
+        <!-- 네루파	:	오리하루콘화살 -->
+	<Action Name="185">
+		<MakeItem>
+		 <Item Amount="5000" ItemId="40748"/>
+		 <Material Amount="100" ItemId="40508" />
+		 <Material Amount="1" ItemId="40779" />
+		 <Material Amount="10" ItemId="40507" />
+		</MakeItem>
+	</Action>
+
+
+		<!-- 문장 강화 수정	:	강화된 아르카의 문장주머니 -->
+	<Action Name="422">
+		<MakeItem>
+			<Item Amount="1" ItemId="130072" Enchant="0"/>		강화된 아르카의 문장 주머니
+			<Material Amount="4" ItemId="30072" Enchant="0"/>	아르카의 문장 주머니
+		</MakeItem>
+	</Action>
+
+		<!-- 천	:	신성한보호망토 -->
+	<Action Name="2863">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20074"/>
+		 <Material Amount="50" ItemId="40455" />		파란옷감
+		 <Material Amount="50" ItemId="40456" />		붉은옷감
+		 <Material Amount="50" ItemId="40457" />		하얀옷감
+		 <Material Amount="50" ItemId="149027" />		마물의기운
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	진싸울 -->
+	<Action Name="2858">
+		<MakeItem>
+		 <Item Amount="1" ItemId="203025"/>
+		 <Material Amount="3" ItemId="40396" />			지룡비늘
+		 <Material Amount="3" ItemId="40395" />			수룡비늘
+		 <Material Amount="3" ItemId="40394" />			풍룡비늘
+		 <Material Amount="3" ItemId="40393" />			화룡비늘
+		 <Material Amount="50" ItemId="149027" />		마물기운
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+
+
+		<!-- 이벨빈	:	지룡비늘갑옷 -->
+	<Action Name="203">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20146"/>
+		 <Material Amount="10" ItemId="40396" />		지룡비늘
+		 <Material Amount="50" ItemId="7244" />		마력의실태래
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		 <Material Amount="5000000" ItemId="40308" />	아데나	
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	수룡비늘갑옷 -->
+	<Action Name="204">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20127"/>
+		 <Material Amount="10" ItemId="40395" />		수룡비늘
+		 <Material Amount="50" ItemId="7244" />		마력의실태래
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		 <Material Amount="5000000" ItemId="40308" />	아데나	
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	풍룡비늘갑옷 -->
+	<Action Name="205">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20156"/>
+		 <Material Amount="10" ItemId="40394" />		풍룡비늘
+		 <Material Amount="50" ItemId="7244" />		마력의실태래
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		 <Material Amount="5000000" ItemId="40308" />	아데나	
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	화룡비늘갑옷 -->
+	<Action Name="206">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20159"/>
+		 <Material Amount="10" ItemId="40393" />		화룡비늘
+		 <Material Amount="50" ItemId="7244" />		마력의실태래
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		 <Material Amount="5000000" ItemId="40308" />	아데나	
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	안타마갑주 -->
+	<Action Name="207">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20130"/>
+		 <Material Amount="1" ItemId="20146" />			지룡비늘갑옷
+		 <Material Amount="1" ItemId="40346" />			안타숨결
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	파푸마갑주 -->
+	<Action Name="208">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20153"/>
+		 <Material Amount="1" ItemId="20127" />			수룡비늘갑옷
+		 <Material Amount="1" ItemId="40362" />			파푸숨결
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	린드마갑주 -->
+	<Action Name="209">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20108"/>
+		 <Material Amount="1" ItemId="20156" />			풍룡비늘갑옷
+		 <Material Amount="1" ItemId="40370" />			린드숨결
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 이벨빈	:	발라마갑주 -->
+	<Action Name="210">
+		<MakeItem>
+		 <Item Amount="1" ItemId="20119"/>
+		 <Material Amount="1" ItemId="20159" />			화룡비늘갑옷
+		 <Material Amount="1" ItemId="40354" />			발라숨결
+		 <Material Amount="50" ItemId="8020" />		환생의보석
+		</MakeItem>
+	</Action>
+
+
+
+
+
+	<!-- 금속	:	흑왕도 -->
+	<Action Name="2760">
+		<MakeItem>
+		 <Item Amount="1" ItemId="84"/>
+		 <Material Amount="1" ItemId="40466" />		용의심장
+		 <Material Amount="5" ItemId="40395" />		수룡비늘
+		 <Material Amount="5" ItemId="40396" />		지룡비늘
+		 <Material Amount="5" ItemId="40393" />		화룡비늘
+		 <Material Amount="5" ItemId="40394" />		풍룡비늘
+		 <Material Amount="150" ItemId="8020" />	환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 금속	:	흑왕아 -->
+	<Action Name="2761">
+		<MakeItem>
+		 <Item Amount="1" ItemId="164"/>
+		 <Material Amount="1" ItemId="40466" />		용의심장
+		 <Material Amount="5" ItemId="40395" />		수룡비늘
+		 <Material Amount="5" ItemId="40396" />		지룡비늘
+		 <Material Amount="5" ItemId="40393" />		화룡비늘
+		 <Material Amount="5" ItemId="40394" />		풍룡비늘
+		 <Material Amount="150" ItemId="8020" />	환생의보석
+		</MakeItem>
+	</Action>
+	<!-- 금속	:	흑왕궁 -->
+	<Action Name="2762">
+		<MakeItem>
+		 <Item Amount="1" ItemId="189"/>
+		 <Material Amount="1" ItemId="40466" />		용의심장
+		 <Material Amount="5" ItemId="40395" />		수룡비늘
+		 <Material Amount="5" ItemId="40396" />		지룡비늘
+		 <Material Amount="5" ItemId="40393" />		화룡비늘
+		 <Material Amount="5" ItemId="40394" />		풍룡비늘
+		 <Material Amount="150" ItemId="8020" />	환생의보석
+		</MakeItem>
+	</Action>
+
+
+
+
+
+
+<!-- 바레트	:	생명의나뭇잎 -->
+	<Action Name="2528">
+		<MakeItem>
+		 <Item Amount="1" ItemId="3000100"/>
+		 <Material Amount="2" ItemId="149027" />	마물의기운
+		 <Material Amount="2" ItemId="6019" />	상아탑마법의정수
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	불완전한마법구술 -->
+	<Action Name="1861">
+		<MakeItem>
+		 <Item Amount="1" ItemId="6017"/>
+		 <Material Amount="3" ItemId="6016" />	불완전한마법구슬조각
+		 <Material Amount="2" ItemId="6019" />	상아탑마법의정수
+		 <Material Amount="1000" ItemId="40308" />	아데나1000
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	촉매추출주머니 -->
+	<Action Name="95">
+		<MakeItem>
+		 <Item Amount="1" ItemId="60386"/>
+		 <Material Amount="3" ItemId="6016" />	불완전한마법구슬조각
+		 <Material Amount="2" ItemId="6019" />	상아탑마법의정수
+		 <Material Amount="1000" ItemId="40308" />	아데나1000
+		</MakeItem>
+	</Action>
+	
+	<!-- 바레트	:	마력의돌 -->
+	<Action Name="96">
+		<MakeItem>
+		 <Item Amount="100" ItemId="40318"/>
+		 <Material Amount="1" ItemId="40524" />	검은혈흔
+		 <Material Amount="10000" ItemId="40308" />	아데나10000
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	정령옥 -->
+	<Action Name="97">
+		<MakeItem>
+		 <Item Amount="100" ItemId="40319"/>
+		 <Material Amount="1" ItemId="40524" />	검은혈흔
+		 <Material Amount="10000" ItemId="40308" />	아데나10000
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	흑마석 -->
+	<Action Name="98">
+		<MakeItem>
+		 <Item Amount="100" ItemId="40320"/>
+		 <Material Amount="1" ItemId="40524" />	검은혈흔
+		 <Material Amount="10000" ItemId="40308" />	아데나10000
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	악마의피 -->
+	<Action Name="99">
+		<MakeItem>
+		 <Item Amount="100" ItemId="40031"/>
+		 <Material Amount="1" ItemId="40524" />	검은혈흔
+		 <Material Amount="10000" ItemId="40308" />	아데나10000
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	속성석 -->
+	<Action Name="1960">
+		<MakeItem>
+		 <Item Amount="100" ItemId="430008"/>
+		 <Material Amount="1" ItemId="40524" />	검은혈흔
+		 <Material Amount="10000" ItemId="40308" />	아데나10000
+		</MakeItem>
+	</Action>
+
+	<!-- 바레트	:	각인의뼈조각 -->
+	<Action Name="1961">
+		<MakeItem>
+		 <Item Amount="100" ItemId="430007"/>
+		 <Material Amount="1" ItemId="40524" />	검은혈흔
+		 <Material Amount="10000" ItemId="40308" />	아데나10000
+		</MakeItem>
+	</Action>
+
+
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1629">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="200" ItemId="700015" /> 얼음여왕의눈물
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1630">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="50" ItemId="41297" /> 블루베리아나
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1631">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="1" ItemId="410162" /> 지룡의표식
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1632">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="1" ItemId="410163" /> 수룡의표식
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1633">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="1" ItemId="410165" /> 풍룡의표식
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1634">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="3" ItemId="41292" /> 환상의케이크조각
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1635">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="3" ItemId="700072" /> 드래이크알
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1636">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="3" ItemId="700073" /> 제로스주머니
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1637">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="10" ItemId="30028" /> 수련자의 무기마법주문서
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1638">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="50" ItemId="410089" /> 룸티스강화주문서
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1639">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="50" ItemId="410083" /> 스냅퍼 강화주문서
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1640">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="20" ItemId="7022" /> 포노스토템
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1641">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="1" ItemId="49031" /> 얼음결정체
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1642">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="60" ItemId="210081" /> 시간균열의파편
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1643">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="1" ItemId="41345" /> 산성 유액
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1644">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="50" ItemId="41345" /> 승리의 체력회복제
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1645">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="2" ItemId="30103" /> 샌드웜주무니
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 아놀드 이벤트 훈련완료증표 -->
+	<Action Name="1646">
+		<MakeItem>
+		 <Item Amount="1" ItemId="30151"/>
+		 <Material Amount="2" ItemId="30102" /> 에르자베의알
+		 <Material Amount="1" ItemId="30150" />
+		</MakeItem>
+	</Action>
+<!-- 포노스 보상20만 -->
+	<Action Name="417">
+		<MakeItem>
+		 <Item Amount="1" ItemId="60486"/>
+		 <Material Amount="1000" ItemId="60490" /> 포노스토템
+		</MakeItem>
+	</Action>
+<!-- 포노스 보상75만 -->
+	<Action Name="418">
+		<MakeItem>
+		 <Item Amount="1" ItemId="60487"/>
+		 <Material Amount="3000" ItemId="60490" /> 포노스토템
+		</MakeItem>
+	</Action>
+<!-- 포노스 보상300만 -->
+	<Action Name="419">
+		<MakeItem>
+		 <Item Amount="1" ItemId="60488"/>
+		 <Material Amount="10000" ItemId="60490" /> 포노스토템
+		</MakeItem>
+	</Action>
+<!-- 포노스 보상1000만 -->
+	<Action Name="420">
+		<MakeItem>
+		 <Item Amount="1" ItemId="60489"/>
+		 <Material Amount="20000" ItemId="60490" /> 포노스토템
+		</MakeItem>
+	</Action>
+<!-- 발록의 핏빛 망토 --> 
+	<Action Name="39">
+		<MakeItem>
+           <Item Amount="1" ItemId="20062"/>
+           <Material Amount="1" ItemId="40475"/>
+           <Material Amount="1" ItemId="40473"/>
+   		</MakeItem>
+	</Action>
+	<!-- 저주받은 피 --> 
+	<Action Name="40">
+		<MakeItem>
+           <Item Amount="1" ItemId="40416"/>
+           <Material Amount="1" ItemId="40477"/>
+           <Material Amount="1" ItemId="40478"/>
+           <Material Amount="1" ItemId="40479"/>
+           <Material Amount="1" ItemId="40480"/>
+		</MakeItem>
+	</Action>
+	<!-- 그림자 신전 2층 열쇠 --> 
+	<Action Name="41">
+		<MakeItem>
+           <Item Amount="1" ItemId="40615"/>
+           <Material Amount="1" ItemId="40719"/>
+           <Material Amount="1000" ItemId="40678"/>
+   		</MakeItem>
+	</Action>
+	<!-- 그림자 신전 3층 열쇠 --> 
+	<Action Name="42">
+		<MakeItem>
+           <Item Amount="1" ItemId="40616"/>
+           <Material Amount="1" ItemId="40707"/>
+           <Material Amount="1000" ItemId="40678"/>
+   		</MakeItem>
+	</Action> 
+<!-- 주티스 솔로부대상자 -->
+	<Action Name="360">
+		<MakeItem>
+           <Item Amount="1" ItemId="5984"/>
+           <Material Amount="1" ItemId="5991"/>
+           <Material Amount="1" ItemId="5998"/>
+           <Material Amount="1" ItemId="5993"/>
+           <Material Amount="1" ItemId="5990"/>
+           <Material Amount="15" ItemId="40308"/>
+        </MakeItem>
+	</Action>
+	<Action Name="361">
+		<MakeItem>
+           <Item Amount="1" ItemId="5985"/>
+           <Material Amount="1" ItemId="5993"/>
+           <Material Amount="1" ItemId="5990"/>
+           <Material Amount="1" ItemId="5994"/>
+           <Material Amount="1" ItemId="5999"/>
+           <Material Amount="1" ItemId="5988"/>
+           <Material Amount="15" ItemId="40308"/>
+        </MakeItem>
+	</Action>
+	<Action Name="362">
+		<MakeItem>
+           <Item Amount="1" ItemId="5986"/>
+           <Material Amount="1" ItemId="5991"/>
+           <Material Amount="1" ItemId="5995"/>
+           <Material Amount="1" ItemId="5994"/>
+           <Material Amount="1" ItemId="5993"/>
+           <Material Amount="1" ItemId="5990"/>
+           <Material Amount="1" ItemId="5992"/>
+           <Material Amount="1" ItemId="5989"/>
+           <Material Amount="15" ItemId="40308"/>
+        </MakeItem>
+	</Action>
+	<Action Name="362">
+		<MakeItem>
+           <Item Amount="1" ItemId="5987"/>
+           <Material Amount="1" ItemId="5993"/>
+           <Material Amount="1" ItemId="5990"/>
+           <Material Amount="1" ItemId="5996"/>
+           <Material Amount="1" ItemId="5988"/>
+           <Material Amount="1" ItemId="5997"/>
+           <Material Amount="1" ItemId="5999"/>
+           <Material Amount="1" ItemId="5995"/>
+           <Material Amount="1" ItemId="5994"/>
+           <Material Amount="15" ItemId="40308"/>
+        </MakeItem>
+	</Action>
+<!-- 모리아 얼음여왕의지팡이 --> 
+	<Action Name="198">
+		<MakeItem>
+           <Item Amount="1" ItemId="121"/>
+           <Material Amount="1" ItemId="111"/>
+           <Material Amount="100" ItemId="40318"/>
+           <Material Amount="2" ItemId="40090"/>
+           <Material Amount="2" ItemId="40091"/>
+           <Material Amount="2" ItemId="40092"/>
+           <Material Amount="2" ItemId="40093"/>
+           <Material Amount="2" ItemId="40094"/>
+   		</MakeItem>
+	</Action>
+<!-- 커츠의검 --> 
+	<Action Name="1810">
+		<MakeItem>
+           <Item Amount="1" ItemId="54"/>
+           <Material Amount="1" ItemId="15"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 골렘의숨결 --> 
+	<Action Name="228">
+		<MakeItem>
+           <Item Amount="1" ItemId="40162"/>
+           <Material Amount="5" ItemId="40304"/>
+           <Material Amount="10" ItemId="40044"/>
+           <Material Amount="5000" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 얼음여왕의숨결 --> 
+	<Action Name="229">
+		<MakeItem>
+           <Item Amount="1" ItemId="40413"/>
+           <Material Amount="5" ItemId="40306"/>
+           <Material Amount="10" ItemId="40047"/>
+           <Material Amount="5000" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 드레이크의숨결 --> 
+	<Action Name="230">
+		<MakeItem>
+           <Item Amount="1" ItemId="40169"/>
+           <Material Amount="5" ItemId="40307"/>
+           <Material Amount="10" ItemId="40046"/>
+           <Material Amount="5000" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 불새의숨결 --> 
+	<Action Name="231">
+		<MakeItem>
+           <Item Amount="1" ItemId="40409"/>
+           <Material Amount="5" ItemId="40305"/>
+           <Material Amount="10" ItemId="40045"/>
+           <Material Amount="5000" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 강화속도향상물약 --> 
+	<Action Name="235">
+		<MakeItem>
+           <Item Amount="1" ItemId="40018"/>
+           <Material Amount="6" ItemId="40013"/>
+           <Material Amount="500" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 달빛의눈물 --> 
+	<Action Name="236">
+		<MakeItem>
+           <Item Amount="1" ItemId="40428"/>
+           <Material Amount="5" ItemId="40458"/>
+           <Material Amount="1" ItemId="40047"/>
+           <Material Amount="500" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 그랑카인의눈물 --> 
+	<Action Name="237">
+		<MakeItem>
+           <Item Amount="1" ItemId="40525"/>
+           <Material Amount="1" ItemId="40443"/>
+           <Material Amount="1" ItemId="40324"/>
+           <Material Amount="3" ItemId="40524"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 마법서(글로잉웨폰) --> 
+	<Action Name="238">
+		<MakeItem>
+           <Item Amount="1" ItemId="40227"/>
+           <Material Amount="1" ItemId="40162"/>
+           <Material Amount="1" ItemId="40163"/>
+           <Material Amount="1" ItemId="40409"/>
+           <Material Amount="1" ItemId="40169"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 마법서(샤이닝실드) --> 
+	<Action Name="239">
+		<MakeItem>
+           <Item Amount="1" ItemId="40229"/>
+           <Material Amount="4" ItemId="40162"/>
+           <Material Amount="4" ItemId="40163"/>
+           <Material Amount="4" ItemId="40409"/>
+           <Material Amount="4" ItemId="40169"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 마법서(브레이브멘탈) --> 
+	<Action Name="240">
+		<MakeItem>
+           <Item Amount="1" ItemId="40230"/>
+           <Material Amount="2" ItemId="40162"/>
+           <Material Amount="2" ItemId="40163"/>
+           <Material Amount="2" ItemId="40409"/>
+           <Material Amount="2" ItemId="40169"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 마법서(런클랜) --> 
+	<Action Name="241">
+		<MakeItem>
+           <Item Amount="1" ItemId="40231"/>
+           <Material Amount="3" ItemId="40162"/>
+           <Material Amount="3" ItemId="40163"/>
+           <Material Amount="3" ItemId="40409"/>
+           <Material Amount="3" ItemId="40169"/>
+   		</MakeItem>
+	</Action>
+	<!-- 류미엘 마법서(라이프스트림) --> 
+	<Action Name="242">
+		<MakeItem>
+           <Item Amount="1" ItemId="40208"/>
+           <Material Amount="1" ItemId="40162"/>
+           <Material Amount="1" ItemId="40163"/>
+           <Material Amount="1" ItemId="40409"/>
+           <Material Amount="1" ItemId="40169"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(가더) --> 
+	<Action Name="100">
+		<MakeItem>
+           <Item Amount="1" ItemId="21095"/>
+           <Material Amount="1" ItemId="60123"/>
+           <Material Amount="50000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(가더) --> 
+	<Action Name="101">
+		<MakeItem>
+           <Item Amount="1" ItemId="21096"/>
+           <Material Amount="1" ItemId="60123"/>
+           <Material Amount="50000" ItemId="41246"/>
+   		</MakeItem>
+   	</Action>
+   	<!-- 마법문자(가더) --> 
+	<Action Name="102">
+		<MakeItem>
+           <Item Amount="1" ItemId="21097"/>
+           <Material Amount="1" ItemId="60123"/>
+           <Material Amount="50000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족검) --> 
+	<Action Name="110">
+		<MakeItem>
+           <Item Amount="1" ItemId="41916"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족의활) --> 
+	<Action Name="111">
+		<MakeItem>
+           <Item Amount="1" ItemId="41917"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족크로우) --> 
+	<Action Name="112">
+		<MakeItem>
+           <Item Amount="1" ItemId="41918"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족지팡이) --> 
+	<Action Name="113">
+		<MakeItem>
+           <Item Amount="1" ItemId="41920"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족체인소드) --> 
+	<Action Name="114">
+		<MakeItem>
+           <Item Amount="1" ItemId="41921"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족키링크) --> 
+	<Action Name="115">
+		<MakeItem>
+           <Item Amount="1" ItemId="41919"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 마법문자(마족도끼) --> 
+	<Action Name="520">
+		<MakeItem>
+           <Item Amount="1" ItemId="7251"/>
+           <Material Amount="1" ItemId="500022"/>
+           <Material Amount="20000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+	<!-- 야히의 분신 데몬의 지팡이 --> 
+	<Action Name="243">
+		<MakeItem>
+           <Item Amount="1" ItemId="119"/>
+           <Material Amount="1" ItemId="108"/>
+           <Material Amount="1" ItemId="49014"/>
+   		</MakeItem>
+	</Action>
+	<!-- 야히의 분신 바포메트의 지팡이 --> 
+	<Action Name="244">
+		<MakeItem>
+           <Item Amount="1" ItemId="124"/>
+           <Material Amount="1" ItemId="109"/>
+           <Material Amount="1" ItemId="49014"/>
+   		</MakeItem>
+	</Action>
+	<!-- 야히의 분신 베레스의의 지팡이 --> 
+	<Action Name="245">
+		<MakeItem>
+           <Item Amount="1" ItemId="123"/>
+           <Material Amount="1" ItemId="110"/>
+           <Material Amount="1" ItemId="49014"/>
+   		</MakeItem>
+	</Action> 
+
+<!-- ######################################  기란마을 란달  ################################## -->
+<!-- 264,265,266,267,268,269,270    호흠물약은 하지않음                                        -->
+<!-- ######################################  기란마을 란달  ################################## -->
+	<!--기란마을(란달) 농축용기-->
+	<Action Name="264">
+		<MakeItem>
+			<Item Amount="1" ItemId="550001"/>농축용기
+			<Material Amount="3" ItemId="40014"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(란달) 농축집중-->
+	<Action Name="265">
+		<MakeItem>
+			<Item Amount="1" ItemId="550002"/>농축집중
+			<Material Amount="3" ItemId="40068"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(란달) 농축지혜-->
+	<Action Name="266">
+		<MakeItem>
+			<Item Amount="1" ItemId="550003"/>농축지혜
+			<Material Amount="3" ItemId="40016"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(란달) 농축마력-->
+	<Action Name="267">
+		<MakeItem>
+			<Item Amount="1" ItemId="550004"/>농축마력
+			<Material Amount="3" ItemId="40015"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(란달) 농축속도-->
+	<Action Name="268">
+		<MakeItem>
+			<Item Amount="1" ItemId="550000"/>농축속도
+			<Material Amount="3" ItemId="40013"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(란달) 농축변신-->
+	<Action Name="270">
+		<MakeItem>
+			<Item Amount="1" ItemId="550006"/>농축변신
+			<Material Amount="3" ItemId="40088"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+
+<!-- ######################################  기란마을 허버트  ################################## -->
+<!-- 199,200,201,570,571                                                                                            -->
+<!-- ######################################  기란마을 허버트  ################################## -->
+	<!--기란마을(허버트) 티셔츠-->
+	<Action Name="199">
+		<MakeItem>
+			<Item Amount="1" ItemId="20085"/>티셔츠
+			<Material Amount="10" ItemId="40457"/>
+			<Material Amount="2" ItemId="40455"/>
+			<Material Amount="3" ItemId="40456"/>
+			<Material Amount="30000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(허버트) 마법망토-->
+	<Action Name="200">
+		<MakeItem>
+			<Item Amount="1" ItemId="20056"/>마법망토
+			<Material Amount="1" ItemId="40457"/>
+			<Material Amount="2" ItemId="40455"/>
+			<Material Amount="10" ItemId="40456"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(허버트) 보호망토-->
+	<Action Name="201">
+		<MakeItem>
+			<Item Amount="1" ItemId="20063"/>보호망토
+			<Material Amount="10" ItemId="40457"/>
+			<Material Amount="5" ItemId="40455"/>
+			<Material Amount="5" ItemId="40456"/>
+			<Material Amount="20000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(허버트) 마력의장갑-->
+	<Action Name="570">
+		<MakeItem>
+			<Item Amount="1" ItemId="7245"/>마력의장갑
+			<Material Amount="10" ItemId="8020"/>
+			<Material Amount="10" ItemId="149027"/>
+			<Material Amount="100" ItemId="7244"/>
+		</MakeItem>
+	</Action>
+	
+<!-- ######################################  기란마을 바무트  ################################## -->
+<!-- 255,256,257,258,259,260,261,262,263,820,481,482,483,484,485,486,487,488                                                                                           -->
+<!-- ######################################  기란마을 바무트  ################################## -->
+	<!--기란마을(바무트) 고급피혁 -->
+	<Action Name="255">
+		<MakeItem>
+			<Item Amount="1" ItemId="40406"/>고급피혁
+			<Material Amount="20" ItemId="40405"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 저주의피혁(대지 -->
+	<Action Name="256">
+		<MakeItem>
+			<Item Amount="1" ItemId="40404"/>대지
+			<Material Amount="5" ItemId="40400"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 저주의피혁(물결 -->
+	<Action Name="257">
+		<MakeItem>
+			<Item Amount="1" ItemId="40402"/>물결
+			<Material Amount="5" ItemId="40397"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 저주의피혁(바람 -->
+	<Action Name="258">
+		<MakeItem>
+			<Item Amount="1" ItemId="40403"/>바람
+			<Material Amount="5" ItemId="40398"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 저주의피혁(열화 -->
+	<Action Name="259">
+		<MakeItem>
+			<Item Amount="1" ItemId="40401"/>열화
+			<Material Amount="5" ItemId="40399"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 대지의망토 -->
+	<Action Name="260">
+		<MakeItem>
+			<Item Amount="1" ItemId="20054"/>대지망토
+			<Material Amount="100" ItemId="40404"/>
+			<Material Amount="3" ItemId="40396"/>
+			<Material Amount="30" ItemId="40044"/>
+			<Material Amount="50" ItemId="40495"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 물결의망토 -->
+	<Action Name="261">
+		<MakeItem>
+			<Item Amount="1" ItemId="20059"/>물결망토
+			<Material Amount="100" ItemId="40402"/>
+			<Material Amount="3" ItemId="40395"/>
+			<Material Amount="30" ItemId="40047"/>
+			<Material Amount="50" ItemId="40495"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 바람의망토 -->
+	<Action Name="262">
+		<MakeItem>
+			<Item Amount="1" ItemId="20061"/>바람망토
+			<Material Amount="100" ItemId="40403"/>
+			<Material Amount="3" ItemId="40394"/>
+			<Material Amount="30" ItemId="40046"/>
+			<Material Amount="50" ItemId="40495"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 열화의망토 -->
+	<Action Name="263">
+		<MakeItem>
+			<Item Amount="1" ItemId="20071"/>바람망토
+			<Material Amount="100" ItemId="40401"/>
+			<Material Amount="3" ItemId="40393"/>
+			<Material Amount="30" ItemId="40045"/>
+			<Material Amount="50" ItemId="40495"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 격분의장갑 -->
+	<Action Name="820">
+		<MakeItem>
+			<Item Amount="1" ItemId="130220"/>격분장갑
+			<Material Amount="3" ItemId="50755"/>
+			<Material Amount="200" ItemId="40401"/>
+			<Material Amount="200" ItemId="40402"/>
+			<Material Amount="200" ItemId="40403"/>
+			<Material Amount="200" ItemId="40404"/>
+			<Material Amount="10000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 완력의부츠1 -->
+	<Action Name="481">
+		<MakeItem>
+			<Item Amount="1" ItemId="21259"/>완력의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="10" ItemId="40053"/>
+			<Material Amount="5" ItemId="40393"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 지혜의부츠1 -->
+	<Action Name="482">
+		<MakeItem>
+			<Item Amount="1" ItemId="30218"/>지혜의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="10" ItemId="40052"/>
+			<Material Amount="5" ItemId="40396"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 민첩의부츠1 -->
+	<Action Name="483">
+		<MakeItem>
+			<Item Amount="1" ItemId="21265"/>민첩의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="10" ItemId="40055"/>
+			<Material Amount="5" ItemId="40394"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 지식의부츠1 -->
+	<Action Name="484">
+		<MakeItem>
+			<Item Amount="1" ItemId="21266"/>지식의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="10" ItemId="40054"/>
+			<Material Amount="5" ItemId="40395"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 완력의부츠2 -->
+	<Action Name="485">
+		<MakeItem>
+			<Item Amount="1" ItemId="21259"/>완력의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="1" ItemId="60358"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 지혜의부츠2 -->
+	<Action Name="486">
+		<MakeItem>
+			<Item Amount="1" ItemId="30218"/>지혜의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="1" ItemId="60356"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 민첩의부츠2 -->
+	<Action Name="487">
+		<MakeItem>
+			<Item Amount="1" ItemId="21265"/>민첩의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="1" ItemId="60355"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(바무트) 지식의부츠2 -->
+	<Action Name="488">
+		<MakeItem>
+			
+			<Item Amount="1" ItemId="21266"/>지식의부츠
+			<Material Amount="50" ItemId="149027"/>
+			<Material Amount="1" ItemId="60357"/>
+		</MakeItem>
+	</Action>
+
+<!-- ######################################  기란마을 액세서리(금속)  ################################## -->
+<!-- 718,719,720,721,  722,723,724,725                                                                                          -->
+<!-- ######################################  기란마을 액세서리(금속)  ################################## -->
+	<!--기란마을(금속) 지령화살 -->
+	<Action Name="718">
+		<MakeItem>
+			<Item Amount="1000" ItemId="50749"/>지령의화살
+			<Material Amount="1000" ItemId="40747"/>
+			<Material Amount="1000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(금속) 수령화살 -->
+	<Action Name="719">
+		<MakeItem>
+			<Item Amount="1000" ItemId="50747"/>수령의화살
+			<Material Amount="1000" ItemId="40747"/>
+			<Material Amount="1000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(금속) 풍령화살 -->
+	<Action Name="720">
+		<MakeItem>
+			<Item Amount="1000" ItemId="50748"/>풍령의화살
+			<Material Amount="1000" ItemId="40747"/>
+			<Material Amount="1000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(금속) 화령화살 -->
+	<Action Name="721">
+		<MakeItem>
+			<Item Amount="1000" ItemId="50750"/>화령의화살
+			<Material Amount="1000" ItemId="40747"/>
+			<Material Amount="1000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+	
+<!-- ######################################  기란마을 액세서리(보석)  ################################## -->
+<!-- 712,713                                                                                         -->
+<!-- ######################################  기란마을 액세서리(보석)  ################################## -->
+	<!--기란마을(보석) 오림의목걸이 -->
+	<Action Name="712">
+		<MakeItem>
+			<Item Amount="1" ItemId="21167"/>오림의목걸이
+			<Material Amount="1" ItemId="60336"/>
+			<Material Amount="10" ItemId="40617"/>
+			<Material Amount="10" ItemId="40053"/>
+			<Material Amount="10" ItemId="40055"/>
+			<Material Amount="10" ItemId="40054"/>
+			<Material Amount="10" ItemId="40052"/>
+			<Material Amount="500" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(보석) 세마의반지 -->
+	<Action Name="713">
+		<MakeItem>
+			<Item Amount="1" ItemId="21168"/>세마의반지
+			<Material Amount="1" ItemId="60336"/>
+			<Material Amount="10" ItemId="40617"/>
+			<Material Amount="10" ItemId="40053"/>
+			<Material Amount="10" ItemId="40055"/>
+			<Material Amount="10" ItemId="40054"/>
+			<Material Amount="10" ItemId="40052"/>
+			<Material Amount="500" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  기란마을 액세서리(천)  ################################## -->
+<!-- 702,703,704,705,708,       709,714,715,716,717                                                                                         -->
+<!-- ######################################  기란마을 액세서리(천)  ################################## -->
+	<!--기란마을(천) 은빛날개 -->
+	<Action Name="702">
+		<MakeItem>
+			<Item Amount="1" ItemId="20050"/>은빛날개
+			<Material Amount="100" ItemId="60184"/>
+			<Material Amount="1" ItemId="20074"/>
+			<Material Amount="100" ItemId="40441"/>
+			<Material Amount="400" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(천) 금빛날개 -->
+	<Action Name="703">
+		<MakeItem>
+			<Item Amount="1" ItemId="20049"/>금빛날개
+			<Material Amount="100" ItemId="60184"/>
+			<Material Amount="1" ItemId="20074"/>
+			<Material Amount="100" ItemId="40489"/>
+			<Material Amount="800" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(천) 명법군왕의망토 -->
+	<Action Name="704">
+		<MakeItem>
+			<Item Amount="1" ItemId="20057"/>명법군왕망토
+			<Material Amount="1" ItemId="60302"/>
+			<Material Amount="10" ItemId="40959"/>
+			<Material Amount="1000" ItemId="40969"/>
+            <Material Amount="1" ItemId="20067"/>
+			<Material Amount="500" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(천) 마령군왕의로브 -->
+	<Action Name="705">
+		<MakeItem>
+			<Item Amount="1" ItemId="20109"/>마령군왕로브
+			<Material Amount="1" ItemId="60303"/>
+			<Material Amount="10" ItemId="40960"/>
+			<Material Amount="1000" ItemId="40969"/>
+            <Material Amount="1" ItemId="20129"/>
+			<Material Amount="500" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(천) 타락의로브 -->
+	<Action Name="708">
+		<MakeItem>
+			<Item Amount="1" ItemId="20152"/>타락의로브
+			<Material Amount="1" ItemId="60289"/>
+			<Material Amount="6" ItemId="40477"/>
+			<Material Amount="1000" ItemId="40524"/>
+  			<Material Amount="500" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(천) 타락의망토 --> 
+	<Action Name="709">
+		<MakeItem>
+			<Item Amount="1" ItemId="20076"/>타락의망토
+			<Material Amount="1" ItemId="60289"/>
+			<Material Amount="6" ItemId="40478"/>
+			<Material Amount="1000" ItemId="40524"/>
+  			<Material Amount="500" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(천) 카스파의모자 --> 
+	<Action Name="714">
+		<MakeItem>
+			<Item Amount="1" ItemId="20040"/>카스파의모자
+			<Material Amount="1" ItemId="60336"/>
+			<Material Amount="150" ItemId="8020"/>
+			<Material Amount="3" ItemId="40393"/>
+  			<Material Amount="100" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(천) 메르키오르의모자 --> 
+	<Action Name="715">
+		<MakeItem>
+			<Item Amount="1" ItemId="20018"/>메르키오르의모자
+			<Material Amount="1" ItemId="60336"/>
+			<Material Amount="150" ItemId="8020"/>
+			<Material Amount="3" ItemId="40395"/>
+  			<Material Amount="100" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(천) 발터자르의모자 --> 
+	<Action Name="716">
+		<MakeItem>
+			<Item Amount="1" ItemId="20025"/>발터자르의모자
+			<Material Amount="1" ItemId="60336"/>
+			<Material Amount="150" ItemId="8020"/>
+			<Material Amount="3" ItemId="40396"/>
+  			<Material Amount="100" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(천) 세마의모자 --> 
+	<Action Name="717">
+		<MakeItem>
+			<Item Amount="1" ItemId="20029"/>세마의모자
+			<Material Amount="1" ItemId="60336"/>
+			<Material Amount="150" ItemId="8020"/>
+			<Material Amount="3" ItemId="40394"/>
+  			<Material Amount="100" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  기란마을 액세서리(가죽)  ################################## -->
+<!-- 706,707,710,711                                                                                    -->
+<!-- ######################################  기란마을 액세서리(가죽)  ################################## -->
+    <!--기란마을(가죽) 마수군왕의부츠 --> 
+	<Action Name="706">
+		<MakeItem>
+			<Item Amount="1" ItemId="20200"/>
+			
+<Material Amount="1" ItemId="60304"/>
+<Material Amount="10" ItemId="40961"/>
+<Material Amount="1000" ItemId="40969"/>
+<Material Amount="1" ItemId="20201"/>
+<Material Amount="1000" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(가죽) 마수군왕의부츠 --> 
+	<Action Name="707">
+		<MakeItem>
+			<Item Amount="1" ItemId="20178"/>암살군왕의장갑
+			<Material Amount="1" ItemId="60305"/>
+<Material Amount="10" ItemId="40962"/>
+<Material Amount="1000" ItemId="40969"/>
+<Material Amount="1" ItemId="20168"/>
+<Material Amount="1000" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(가죽) 타락의장갑 --> 
+	<Action Name="710">
+		<MakeItem>
+			<Item Amount="1" ItemId="20186"/>타락의장갑
+						
+<Material Amount="1" ItemId="60289"/>
+<Material Amount="6" ItemId="40479"/>
+<Material Amount="1000" ItemId="40524"/>
+<Material Amount="1000" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+    <!--기란마을(가죽) 타락의부츠 --> 
+	<Action Name="711">
+		<MakeItem>
+			<Item Amount="1" ItemId="20216"/>타락의부츠
+			<Material Amount="1" ItemId="60289"/>
+<Material Amount="6" ItemId="40480"/>
+<Material Amount="1000" ItemId="40524"/>
+<Material Amount="1000" ItemId="149027"/>
+		</MakeItem>
+	</Action>
+
+<!-- ######################################  기란마을 액세서리(스냅퍼)  ################################## -->
+<!-- 946,947,948,949,950,951,체력   952,953,954,955,956,957,저항   958,959,960,961,962,963,집중   964,965,966,967,968,969,마나    970,971,972,973,974,975,회복   976,977,978,979,980,981,지혜  982,983,984,985,986,987용사  -->
+<!-- ######################################  기란마을 액세서리(스냅퍼)  ################################## -->
+	
+
+<!-- ######################################  기란마을 (헥터)  ################################## -->
+<!-- 518,519,194,195,196,819,821,189,190,191,192,193,       69,70,71,72,73,74,75,76,77,78                                                                        -->
+<!-- ######################################  기란마을 (헥터)  ################################## -->
+    
+	<!--기란마을(헥터) 극한의투구 --> 
+	<Action Name="194">
+		<MakeItem>
+			<Item Amount="1" ItemId="6003"/>극한의투구
+			<Material Amount="1" ItemId="6010"/>
+			<Material Amount="1" ItemId="20006"/>
+			<Material Amount="50000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+
+	<!--기란마을(헥터) 극한의갑옷 --> 
+	<Action Name="195">
+		<MakeItem>
+			<Item Amount="1" ItemId="6004"/>극한의갑옷
+			<Material Amount="1" ItemId="6011"/>
+			<Material Amount="1" ItemId="20154"/>
+			<Material Amount="50000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+
+	<!--기란마을(헥터) 극한의부츠 --> 
+	<Action Name="196">
+		<MakeItem>
+			<Item Amount="1" ItemId="6005"/> 
+			<Material Amount="1" ItemId="20205"/>  //부츠
+			<Material Amount="1" ItemId="6012"/>  //극한의 샌달 원석  
+			<Material Amount="50000" ItemId="41246"/> 
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 포효의이도류 --> 
+	<Action Name="819">
+		<MakeItem>
+            <Item Amount="1" ItemId="90083"/>
+            <Material Amount="2" ItemId="50753"/>쿠거의이빨
+            <Material Amount="1" ItemId="50756"/>쿠거의가죽
+	        <Material Amount="1" ItemId="40466"/>용의심장
+	        <Material Amount="100" ItemId="40439"/>백금판금
+	        <Material Amount="100" ItemId="40324"/>암황석
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 섬멸자의체인소드 --> 
+	<Action Name="821">
+		<MakeItem>
+            <Item Amount="1" ItemId="90084"/>
+            <Material Amount="1" ItemId="50754"/>우그누스의부러진창
+            <Material Amount="100" ItemId="40487"/>황금판금
+	        <Material Amount="300" ItemId="149027"/>마물의기운
+	        <Material Amount="30" ItemId="40525"/>그랑카인눈물
+	        <Material Amount="20000000" ItemId="40308"/>아데나
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 강철면갑 --> 
+	<Action Name="189">
+		<MakeItem>
+			<Item Amount="1" ItemId="20003"/>
+			<Material Amount="1" ItemId="20006"/>
+			<Material Amount="120" ItemId="40408"/>
+			<Material Amount="16500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 강철판금갑옷 --> 
+	<Action Name="190">
+		<MakeItem>
+			<Item Amount="1" ItemId="20091"/>
+			<Material Amount="1" ItemId="20154"/>
+			<Material Amount="450" ItemId="40408"/>
+			<Material Amount="30000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 강철장갑 --> 
+	<Action Name="191">
+		<MakeItem>
+			<Item Amount="1" ItemId="20163"/>
+			<Material Amount="1" ItemId="20182"/>
+			<Material Amount="150" ItemId="40408"/>
+			<Material Amount="25000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 강철부츠 --> 
+	<Action Name="192">
+		<MakeItem>
+			<Item Amount="1" ItemId="20194"/>
+			<Material Amount="1" ItemId="20205"/>
+			<Material Amount="160" ItemId="40408"/>
+			<Material Amount="8000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 강철방패 --> 
+	<Action Name="193">
+		<MakeItem>
+			<Item Amount="1" ItemId="20220"/>
+			<Material Amount="1" ItemId="20231"/>
+			<Material Amount="200" ItemId="40408"/>
+			<Material Amount="16000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 얇은판금 --> 
+	<Action Name="69">
+		<MakeItem>
+			<Item Amount="1" ItemId="40526"/>
+			<Material Amount="10" ItemId="40408"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 강철괴 --> 
+	<Action Name="70">
+		<MakeItem>
+			<Item Amount="1" ItemId="40779"/>
+			<Material Amount="5" ItemId="40899"/>
+			<Material Amount="5" ItemId="40408"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 블랙미스릴 --> 
+	<Action Name="71">
+		<MakeItem>
+			<Item Amount="1" ItemId="40443"/>
+			<Material Amount="1" ItemId="40486"/>
+			<Material Amount="1" ItemId="40490"/>
+			<Material Amount="1" ItemId="40442"/>
+			<Material Amount="5" ItemId="40444"/>
+			<Material Amount="5000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 블랙미스릴판금 --> 
+	<Action Name="72">
+		<MakeItem>
+			<Item Amount="1" ItemId="40445"/>
+			<Material Amount="10" ItemId="40443"/>
+			<Material Amount="1" ItemId="40497"/>
+			<Material Amount="1" ItemId="40509"/>
+			<Material Amount="1" ItemId="40469"/>
+			<Material Amount="1" ItemId="40487"/>
+			<Material Amount="1" ItemId="40439"/>
+			<Material Amount="10000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 은괴 --> 
+	<Action Name="73">
+		<MakeItem>
+			<Item Amount="1" ItemId="40467"/>
+			<Material Amount="10" ItemId="40468"/>
+			<Material Amount="500" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 은판금 --> 
+	<Action Name="74">
+		<MakeItem>
+			<Item Amount="1" ItemId="40469"/>
+			<Material Amount="5" ItemId="40467"/>
+			<Material Amount="3" ItemId="40779"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 황금괴 --> 
+	<Action Name="75">
+		<MakeItem>
+			<Item Amount="1" ItemId="40488"/>
+			<Material Amount="10" ItemId="40489"/>
+			<Material Amount="1000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 황금판금 --> 
+	<Action Name="76">
+		<MakeItem>
+			<Item Amount="1" ItemId="40487"/>
+			<Material Amount="5" ItemId="40488"/>
+			<Material Amount="3" ItemId="40779"/>
+			<Material Amount="3000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 백금괴 --> 
+	<Action Name="77">
+		<MakeItem>
+			<Item Amount="1" ItemId="40440"/>
+			<Material Amount="10" ItemId="40441"/>
+			<Material Amount="5000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--기란마을(헥터) 백금판금 --> 
+	<Action Name="78">
+		<MakeItem>
+			<Item Amount="1" ItemId="40439"/>
+			<Material Amount="5" ItemId="40440"/>
+			<Material Amount="3" ItemId="40779"/>
+			<Material Amount="10000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (칼루아)  ################################## -->
+<!-- 157,158                                                                        -->
+<!-- ######################################  웰던마을 (칼루아)  ################################## -->
+	<!--웰던마을(칼루아) 고대명궁의가더 --> 
+	<Action Name="157">
+		<MakeItem>
+			<Item Amount="1" ItemId="420000"/>
+			<Material Amount="1" ItemId="20129"/>
+			<Material Amount="3" ItemId="40445"/>
+			<Material Amount="20" ItemId="40504"/>
+			<Material Amount="20" ItemId="40521"/>
+			<Material Amount="50" ItemId="40505"/>
+			<Material Amount="50" ItemId="40495"/>
+			<Material Amount="1000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(칼루아) 고대투사의가더 --> 
+	<Action Name="158">
+		<MakeItem>
+			<Item Amount="1" ItemId="420003"/>
+			<Material Amount="1" ItemId="20113"/>
+			<Material Amount="5" ItemId="40445"/>
+			<Material Amount="1000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (슈에르메)  ################################## -->
+<!-- 103,104,105,106,107,108,109,496,497                                                                        -->
+<!-- ######################################  웰던마을 (슈에르메)  ################################## -->
+        
+	<!--웰던마을(슈에르메) 드래곤의다이아몬드상자 (★일단축이없어 일반으로해놈)--> 
+	<Action Name="496">
+		<MakeItem>
+			<Item Amount="1" ItemId="1437009"/>드래곤의다이아몬드상자
+			<Material Amount="4" ItemId="437009"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(슈에르메) 드래곤의용금술용액 (★현재보류)--> 
+	<Action Name="497">
+		<MakeItem>
+			<Item Amount="1" ItemId="7322"/>드래곤의용금술용액
+			<Material Amount="1" ItemId="60255"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (슈누)  ################################## -->
+<!-- 83,84,85,86                                                               -->
+<!-- ######################################  웰던마을 (슈누)  ################################## -->
+	<!--웰던마을(슈누) 안타라스마력 --> 
+	<Action Name="83">
+		<MakeItem>
+			<Item Amount="1" ItemId="420103"/>
+			<Material Amount="1" ItemId="20130"/>
+			<Material Amount="2" ItemId="40346"/>
+			<Material Amount="3" ItemId="40052"/>
+			<Material Amount="50" ItemId="40304"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(슈누) 발라카스의마력 --> 
+	<Action Name="84">
+		<MakeItem>
+			<Item Amount="1" ItemId="420114"/>
+			<Material Amount="1" ItemId="20119"/>
+			<Material Amount="2" ItemId="40354"/>
+			<Material Amount="3" ItemId="40053"/>
+			<Material Amount="50" ItemId="40305"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(슈누) 파푸리온의마력 --> 
+	<Action Name="85">
+		<MakeItem>
+			<Item Amount="1" ItemId="420107"/>
+			<Material Amount="1" ItemId="20153"/>
+			<Material Amount="2" ItemId="40362"/>
+			<Material Amount="3" ItemId="40055"/>
+			<Material Amount="50" ItemId="40306"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(슈누) 린드비오르의마력 --> 
+	<Action Name="86">
+		<MakeItem>
+			<Item Amount="1" ItemId="420111"/>
+			<Material Amount="1" ItemId="20108"/>
+			<Material Amount="2" ItemId="40370"/>
+			<Material Amount="3" ItemId="40054"/>
+			<Material Amount="50" ItemId="40307"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (도오호)  ################################## -->
+<!-- 87,88,89,90                                                               -->
+<!-- ######################################  웰던마을 (도오호)  ################################## -->
+	<!--웰던마을(도오호) 안타라스의인내력 --> 
+	<Action Name="87">
+		<MakeItem>
+			<Item Amount="1" ItemId="420102"/>
+			<Material Amount="1" ItemId="20130"/>
+			<Material Amount="2" ItemId="40346"/>
+			<Material Amount="3" ItemId="40052"/>
+			<Material Amount="50" ItemId="40304"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(도오호) 발라카스의인내력 --> 
+	<Action Name="88">
+		<MakeItem>
+			<Item Amount="1" ItemId="420112"/>
+			<Material Amount="1" ItemId="20119"/>
+			<Material Amount="2" ItemId="40354"/>
+			<Material Amount="3" ItemId="40053"/>
+			<Material Amount="50" ItemId="40305"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(도오호) 파푸리온의인내력 --> 
+	<Action Name="89">
+		<MakeItem>
+			<Item Amount="1" ItemId="420106"/>
+			<Material Amount="1" ItemId="20153"/>
+			<Material Amount="2" ItemId="40362"/>
+			<Material Amount="3" ItemId="40055"/>
+			<Material Amount="50" ItemId="40306"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(도오호) 린드비오르의인내력 --> 
+	<Action Name="90">
+		<MakeItem>
+			<Item Amount="1" ItemId="420110"/>
+			<Material Amount="1" ItemId="20108"/>
+			<Material Amount="2" ItemId="40370"/>
+			<Material Amount="3" ItemId="40054"/>
+			<Material Amount="50" ItemId="40307"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (하이오스)  ################################## -->
+<!-- 79,80,81,82                                                          -->
+<!-- ######################################  웰던마을 (하이오스)  ################################## -->
+	<!--웰던마을(하이오스) 안타라스의완력 --> 
+	<Action Name="79">
+		<MakeItem>
+			<Item Amount="1" ItemId="420100"/>
+			<Material Amount="1" ItemId="20130"/>
+			<Material Amount="2" ItemId="40346"/>
+			<Material Amount="1" ItemId="40346"/>
+			<Material Amount="50" ItemId="40304"/>
+			<Material Amount="150000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(하이오스) 발라카스의완력 --> 
+	<Action Name="80">
+		<MakeItem>
+			<Item Amount="1" ItemId="420115"/>
+			<Material Amount="1" ItemId="20119"/>
+			<Material Amount="2" ItemId="40354"/>
+			<Material Amount="3" ItemId="40053"/>
+			<Material Amount="50" ItemId="40305"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(하이오스) 파푸리온의완력 --> 
+	<Action Name="81">
+		<MakeItem>
+			<Item Amount="1" ItemId="420104"/>
+			<Material Amount="1" ItemId="20153"/>
+			<Material Amount="2" ItemId="40362"/>
+			<Material Amount="3" ItemId="40055"/>
+			<Material Amount="50" ItemId="40306"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(하이오스) 린드비오르의완력 --> 
+	<Action Name="82">
+		<MakeItem>
+			<Item Amount="1" ItemId="420108"/>
+			<Material Amount="1" ItemId="20108"/>
+			<Material Amount="2" ItemId="40370"/>
+			<Material Amount="3" ItemId="40054"/>
+			<Material Amount="50" ItemId="40307"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (바에미)  ################################## -->
+<!-- 91,92,93,94                                                         -->
+<!-- ######################################  웰던마을 (바에미)  ################################## -->
+	<!--웰던마을(바에미) 안타라스의예지력 --> 
+	<Action Name="91">
+		<MakeItem>
+			<Item Amount="1" ItemId="420101"/>
+			<Material Amount="1" ItemId="20130"/>
+			<Material Amount="2" ItemId="40346"/>
+			<Material Amount="3" ItemId="40052"/>
+			<Material Amount="50" ItemId="40304"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(바에미) 발라카스의예지력 --> 
+	<Action Name="92">
+		<MakeItem>
+			<Item Amount="1" ItemId="420113"/>
+			<Material Amount="1" ItemId="20119"/>
+			<Material Amount="2" ItemId="40354"/>
+			<Material Amount="3" ItemId="40053"/>
+			<Material Amount="50" ItemId="40305"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(바에미) 파푸리온의예지력 --> 
+	<Action Name="93">
+		<MakeItem>
+			<Item Amount="1" ItemId="420105"/>
+			<Material Amount="1" ItemId="20153"/>
+			<Material Amount="2" ItemId="40362"/>
+			<Material Amount="3" ItemId="40055"/>
+			<Material Amount="50" ItemId="40306"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	<!--웰던마을(바에미) 린드비오르의예지력 --> 
+	<Action Name="94">
+		<MakeItem>
+			<Item Amount="1" ItemId="420109"/>
+			<Material Amount="1" ItemId="20108"/>
+			<Material Amount="2" ItemId="40370"/>
+			<Material Amount="3" ItemId="40054"/>
+			<Material Amount="50" ItemId="40307"/>
+			<Material Amount="100000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  웰던마을 (조우의불골렘)  ################################## -->
+<!-- 515,514,516,517,271,272,273,274,275,276,277,278,279,280,281,282,283,284,285,286,287,288,289,290,423,424,425                                                     -->
+<!-- ######################################  웰던마을 (조우의불골렘)  ################################## -->
+	<!--웰던마을(불골렘) 0마물의도끼 --> 
+	<Action Name="515">
+		<MakeItem>
+			<Item Amount="1" ItemId="7226"/> 0마물의도끼
+			<Material Amount="1" ItemId="151"/>
+			<Material Amount="200000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  용기사마을 (퓨알)  ################################## -->
+<!-- 62,65,63,64,          69,70,71,72,73,74,75,76,77,78                                           -->
+<!-- ######################################  용기사마을 (퓨알)  ################################## -->
+        <!-- 용기사마을(퓨알) 파멸자의체인소드 --> 
+	<Action Name="62">
+		<MakeItem>
+			<Item Amount="1" ItemId="410001"/>
+			<Material Amount="1" ItemId="52"/>
+			<Material Amount="30" ItemId="40044"/>
+			<Material Amount="30" ItemId="40045"/>
+			<Material Amount="30" ItemId="40304"/>
+			<Material Amount="30" ItemId="40305"/>
+			<Material Amount="30" ItemId="40306"/>
+			<Material Amount="30" ItemId="40307"/>
+			<Material Amount="20" ItemId="149027"/>
+			<Material Amount="1" ItemId="410002"/>
+			<Material Amount="1000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>	 
+        <!-- 용기사마을(퓨알) 극한의체인소드 --> 
+	<Action Name="65">
+		<MakeItem>
+		    <Item Amount="1" ItemId="6000"/>
+            <Material Amount="1" ItemId="6008"/>
+            <Material Amount="2" ItemId="6023"/>
+            <Material Amount="50000" ItemId="41246"/>
+		</MakeItem>
+	</Action>
+
+	 <!-- 용기사마을(퓨알) 고대명궁의가더 --> 
+	<Action Name="63">
+		<MakeItem>
+			<Item Amount="1" ItemId="420000"/>
+			<Material Amount="1" ItemId="20140"/>
+			<Material Amount="50" ItemId="40505"/>
+			<Material Amount="50" ItemId="40495"/>
+			<Material Amount="20" ItemId="40504"/>
+			<Material Amount="20" ItemId="40521"/>
+			<Material Amount="3" ItemId="40445"/>
+			<Material Amount="1000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+
+	 <!-- 용기사마을(퓨알) 고대투사의가더 --> 
+	<Action Name="64">
+		<MakeItem>
+			<Item Amount="1" ItemId="420003"/>
+			<Material Amount="1" ItemId="20143"/>
+			<Material Amount="5" ItemId="40445"/>
+			<Material Amount="1000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+<!-- ######################################  환술사마을 (바트르)  ################################## -->
+<!-- 67,68,         69,70,71,72,73,74,75,76,77,78                                         -->
+<!-- ######################################  환술사마을 (바트르)  ################################## -->
+	 <!-- 환술사마을(바트르) 흑요석키링크 --> 
+	<Action Name="67">
+		<MakeItem>
+		    <Item Amount="1" ItemId="504"/>
+			<Material Amount="10" ItemId="40052"/>
+			<Material Amount="10" ItemId="40053"/>
+			<Material Amount="10" ItemId="40054"/>
+			<Material Amount="10" ItemId="40055"/>
+			<Material Amount="1" ItemId="410005"/>
+			<Material Amount="30" ItemId="40306"/>
+			<Material Amount="30" ItemId="40307"/>
+			<Material Amount="30" ItemId="40305"/>
+			<Material Amount="30" ItemId="40304"/>
+			<Material Amount="1000000" ItemId="40308"/>
+		</MakeItem>
+	</Action>
+	 <!-- 환술사마을(바트르) 냉한의키링크 --> 
+	<Action Name="68">
+		<MakeItem>
+		    <Item Amount="1" ItemId="6001"/>
+            <Material Amount="1" ItemId="6009"/>
+            <Material Amount="2" ItemId="6023"/>
+            <Material Amount="50000" ItemId="41246"/>
+   		</MakeItem>
+	</Action>
+<!-- ######################################  화전민마을 (라이아)  ################################## -->
+<!-- 417,418,419,420                          -->
+<!-- ######################################  화전민마을 (라이아)  ################################## -->
+	 <!-- 화전민마을(라이아) 포상20만 --> 
+	<Action Name="417">
+		<MakeItem>
+		    <Item Amount="200000" ItemId="40308"/>
+            <Material Amount="1000" ItemId="7022"/>
+   		</MakeItem>
+	</Action>
+	 <!-- 화전민마을(라이아) 포상75만 --> 
+	<Action Name="418">
+		<MakeItem>
+		    <Item Amount="750000" ItemId="40308"/>
+            <Material Amount="3000" ItemId="7022"/>
+   		</MakeItem>
+	</Action>
+	 <!-- 화전민마을(라이아) 포상75만 --> 
+	<Action Name="419">
+		<MakeItem>
+		    <Item Amount="3000000" ItemId="40308"/>
+            <Material Amount="10000" ItemId="7022"/>
+   		</MakeItem>
+	</Action>
+	 <!-- 화전민마을(라이아) 포상1000만 --> 
+	<Action Name="420">
+		<MakeItem>
+		    <Item Amount="3000000" ItemId="40308"/>
+            <Material Amount="20000" ItemId="7022"/>
+   		</MakeItem>
+	</Action>
+<!-- ######################################  몽섬 (쿠프)  ################################## -->
+<!-- 220, 226, 223, 219, 225, 222, 221, 224, 216, 215, 217, 218, 70, 71,72,73,74,75,76,77,78                        -->
+<!-- ######################################  몽섬 (쿠프)  ################################## -->
+<!-- 어둠의 이도류 --> 
+	<Action Name=" 220">
+		<MakeItem>
+           <Item Amount="1" ItemId="75"/>
+           <Material Amount="100" ItemId="40321"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="20" ItemId="40406"/>
+   		</MakeItem>
+	</Action>
+<!-- 은색의 이도류 --> 
+	<Action Name=" 226">
+		<MakeItem>
+           <Item Amount="1" ItemId="74"/>
+           <Material Amount="50" ItemId="40321"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="20" ItemId="40406"/>
+           <Material Amount="1" ItemId="75"/>
+           <Material Amount="20" ItemId="40467"/>
+           <Material Amount="1" ItemId="40323"/>
+           <Material Amount="1" ItemId="40044"/>
+   		</MakeItem>
+	</Action>
+<!-- 흑빛의 이도류 --> 
+	<Action Name=" 223">
+		<MakeItem>
+           <Item Amount="1" ItemId="81"/>
+           <Material Amount="100" ItemId="40322"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="20" ItemId="40406"/>
+           <Material Amount="1" ItemId="75"/>
+           <Material Amount="5" ItemId="40323"/>
+   		</MakeItem>
+	</Action>
+<!-- 어둠의 크로우 --> 
+	<Action Name=" 219">
+		<MakeItem>
+           <Item Amount="1" ItemId="158"/>
+           <Material Amount="100" ItemId="40321"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="10" ItemId="40406"/>
+           <Material Amount="5" ItemId="40322"/>
+   		</MakeItem>
+	</Action>
+<!-- 은색의 크로우 --> 
+	<Action Name=" 225">
+		<MakeItem>
+           <Item Amount="1" ItemId="157"/>
+           <Material Amount="40" ItemId="40321"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="10" ItemId="40406"/>
+           <Material Amount="1" ItemId="158"/>
+           <Material Amount="30" ItemId="40467"/>
+           <Material Amount="1" ItemId="40323"/>
+           <Material Amount="1" ItemId="40044"/>
+   		</MakeItem>
+	</Action>
+<!-- 흑빛의 크로우 --> 
+	<Action Name=" 222">
+		<MakeItem>
+           <Item Amount="1" ItemId="162"/>
+           <Material Amount="100" ItemId="40322"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="10" ItemId="40406"/>
+           <Material Amount="1" ItemId="75"/>
+           <Material Amount="10" ItemId="40323"/>
+   		</MakeItem>
+	</Action>
+<!-- 어둠의 활 --> 
+	<Action Name=" 221">
+		<MakeItem>
+           <Item Amount="1" ItemId="168"/>
+           <Material Amount="100" ItemId="40321"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="30" ItemId="40406"/>
+           <Material Amount="10" ItemId="40322"/>
+   		</MakeItem>
+	</Action>
+<!-- 흑빛의 활 --> 
+	<Action Name=" 224">
+		<MakeItem>
+           <Item Amount="1" ItemId="162"/>
+           <Material Amount="100" ItemId="40322"/>
+           <Material Amount="10" ItemId="40408"/>
+           <Material Amount="30" ItemId="40406"/>
+           <Material Amount="1" ItemId="168"/>
+           <Material Amount="20" ItemId="40323"/>
+   		</MakeItem>
+	</Action>
+<!-- ######################################  아덴마을 (무브니)  ################################## -->
+<!-- 823,824,825,826,827,828,829,830,831,    832,            833,834,835,836,837,838,839,840,841,842,         843,844,845,846,847,848,849,850,851,852                        -->
+<!-- ######################################  아덴마을 (무브니)  ################################## -->
+	<!-- 무브니 2층이동주문서 --> 
+	<Action Name="823">
+		<MakeItem>
+           <Item Amount="1" ItemId="40104"/>
+           <Material Amount="2" ItemId="60200"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 3층이동주문서 --> 
+	<Action Name="824">
+		<MakeItem>
+           <Item Amount="1" ItemId="40105"/>
+           <Material Amount="2" ItemId="40104"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 4층이동주문서 --> 
+	<Action Name="825">
+		<MakeItem>
+           <Item Amount="1" ItemId="40106"/>
+           <Material Amount="2" ItemId="40105"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 5층이동주문서 --> 
+	<Action Name="826">
+		<MakeItem>
+           <Item Amount="1" ItemId="40107"/>
+           <Material Amount="2" ItemId="40106"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 6층이동주문서 --> 
+	<Action Name="827">
+		<MakeItem>
+           <Item Amount="1" ItemId="40108"/>
+           <Material Amount="2" ItemId="40107"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 7층이동주문서 --> 
+	<Action Name="828">
+		<MakeItem>
+           <Item Amount="1" ItemId="40109"/>
+           <Material Amount="2" ItemId="40108"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 8층이동주문서 --> 
+	<Action Name="829">
+		<MakeItem>
+           <Item Amount="1" ItemId="40110"/>
+           <Material Amount="2" ItemId="40109"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 9층이동주문서 --> 
+	<Action Name="830">
+		<MakeItem>
+           <Item Amount="1" ItemId="40111"/>
+           <Material Amount="2" ItemId="40110"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 10층이동주문서 --> 
+	<Action Name="831">
+		<MakeItem>
+           <Item Amount="1" ItemId="40112"/>
+           <Material Amount="2" ItemId="40111"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 정상층이동주문서 --> 
+	<Action Name="832">
+		<MakeItem>
+           <Item Amount="1" ItemId="40113"/>
+           <Material Amount="2" ItemId="40112"/>
+		   <Material Amount="300" ItemId="40308"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된1층 --> 
+	<Action Name="833">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000100"/>
+           <Material Amount="1" ItemId="60202"/>
+           <Material Amount="1000" ItemId="60200"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된2층 --> 
+	<Action Name="834">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000101"/>
+           <Material Amount="1" ItemId="40289"/>
+           <Material Amount="900" ItemId="40104"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된3층 --> 
+	<Action Name="835">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000102"/>
+           <Material Amount="1" ItemId="40290"/>
+           <Material Amount="800" ItemId="40105"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된4층 --> 
+	<Action Name="836">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000103"/>
+           <Material Amount="1" ItemId="40291"/>
+           <Material Amount="700" ItemId="40106"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된5층 --> 
+	<Action Name="837">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000104"/>
+           <Material Amount="1" ItemId="40292"/>
+           <Material Amount="600" ItemId="40107"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된6층 --> 
+	<Action Name="838">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000105"/>
+           <Material Amount="1" ItemId="40293"/>
+           <Material Amount="500" ItemId="40108"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된7층 --> 
+	<Action Name="839">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000106"/>
+           <Material Amount="1" ItemId="40294"/>
+           <Material Amount="400" ItemId="40109"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된8층 --> 
+	<Action Name="840">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000107"/>
+           <Material Amount="1" ItemId="40295"/>
+           <Material Amount="300" ItemId="40110"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된9층 --> 
+	<Action Name="841">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000108"/>
+           <Material Amount="1" ItemId="40296"/>
+           <Material Amount="200" ItemId="40111"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 변이된10층 --> 
+	<Action Name="842">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000109"/>
+           <Material Amount="1" ItemId="40297"/>
+           <Material Amount="100" ItemId="40112"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의1층 --> 
+	<Action Name="843">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000110"/>
+           <Material Amount="1" ItemId="60202"/>
+           <Material Amount="1" ItemId="60201"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의2층 --> 
+	<Action Name="844">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000111"/>
+           <Material Amount="1" ItemId="40289"/>
+           <Material Amount="1" ItemId="40280"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의3층 --> 
+	<Action Name="845">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000112"/>
+           <Material Amount="1" ItemId="40290"/>
+           <Material Amount="1" ItemId="40281"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의4층 --> 
+	<Action Name="846">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000113"/>
+           <Material Amount="1" ItemId="40291"/>
+           <Material Amount="1" ItemId="40282"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의5층 --> 
+	<Action Name="847">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000114"/>
+           <Material Amount="1" ItemId="40292"/>
+           <Material Amount="1" ItemId="40283"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의6층 --> 
+	<Action Name="848">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000115"/>
+           <Material Amount="1" ItemId="40293"/>
+           <Material Amount="1" ItemId="40284"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의7층 --> 
+	<Action Name="849">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000116"/>
+           <Material Amount="1" ItemId="40294"/>
+           <Material Amount="1" ItemId="40285"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의8층 --> 
+	<Action Name="850">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000117"/>
+           <Material Amount="1" ItemId="40295"/>
+           <Material Amount="1" ItemId="40286"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의9층 --> 
+	<Action Name="851">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000118"/>
+           <Material Amount="1" ItemId="40296"/>
+           <Material Amount="1" ItemId="40287"/>
+   		</MakeItem>
+	</Action>
+	<!-- 무브니 혼돈의10층 --> 
+	<Action Name="852">
+		<MakeItem>
+           <Item Amount="1" ItemId="5000119"/>
+           <Material Amount="1" ItemId="40297"/>
+           <Material Amount="1" ItemId="40288"/>
+   		</MakeItem>
+	</Action>
+
+
+</NpcActionList>
+
+

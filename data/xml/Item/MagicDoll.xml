@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+ Item
+ - ItemId
+ 
+ Info
+ - Name
+ - NameId
+ - Grade
+ - GfxId
+ - Time
+ - Crystal
+ 
+ Effect
+ - Ac
+ - Str
+ - Con
+ - Dex
+ - Int
+ - Wis
+ - Cha
+ - Hp
+ - Mp
+ - Hpr
+ - Mpr
+ - HprTime
+ - MprTime
+ - Mr
+ - Sp
+ - Dmg
+ - BowDmg
+ - DmgChance
+ - Hit
+ - BowHit
+ - DmgReduction
+ - DmgReductionChance
+ - DmgEvasionChance
+ - WeightReduction
+ - MagicHit
+ - TechniqueTolerance
+ - SpiritTolerance
+ - DragonlangTolerance
+ - FearTolerance
+ - AllTolerance
+
+ - TechniqueHit
+ - SpiritHit
+ - DragonlangHit
+ - FearHit
+ - AllHit
+ - Er
+ - PvpDmg
+ - PvpReduction
+ - PvpMagicReduction
+ - Exp
+ - Make
+ - MakeTime
+ - SkillId
+ - SkillChance
+ - SkillNameId
+ - TitanPercent
+ - AinEfficiency
+ - Eva
+ - Haste
+-->
+
+<ItemEffectList>
+	<!-- 1단계 마법인형 -->
+	<Item ItemId="430000" >  <!-- 돌골렘 마법인형 -->
+		<Info Name="돌골렘 마법인형" NameId="$5416" Grade="1" GfxId="6452" Time="5" Crystal="50" />
+		<Effect DmgReduction="1" />
+	</Item>
+	<Item ItemId="41250" >  <!-- 늑대인간 마법인형 -->
+		<Info Name="늑대인간 마법인형" NameId="$5222" Grade="1" GfxId="6096" Time="1800" Crystal="50" />
+		<Effect Dmg="15" DmgChance="8" />
+	</Item>
+	<Item ItemId="41248" >  <!-- 마법인형 : 버그베어 -->
+		<Info Name="버그베어 마법인형" NameId="$5223" Grade="1" GfxId="6100" Time="1800" Crystal="50" />
+		<Effect WeightReduction="10" />
+	</Item>
+	<Item ItemId="430002" >  <!-- 크러스트 시안 마법인형 -->
+		<Info Name="크러스트 마법인형" NameId="$5415" Grade="1" GfxId="6449" Time="1800" Crystal="50" />
+		<Effect Dmg="15" DmgChance="8" />
+	</Item>
+	<Item ItemId="141922" >  <!-- 에티 마법인형 -->
+		<Info Name="에티 마법인형" NameId="$6416" Grade="1" GfxId="6480" Time="1800" Crystal="50" />
+		<Effect Ac="+3" />
+	</Item>
+	<Item ItemId="600241" >  <!-- 마법인형: 목각 -->
+		<Info Name="목각 마법인형" NameId="$21344" Grade="1" GfxId="12539" Time="1800" Crystal="50" />
+		<Effect Hp="50" />
+	</Item>
+	
+	<!-- 2단계 마법인형 -->
+	<Item ItemId="41249" >  <!-- 마법인형 : 서큐버스 -->
+		<Info Name="서큐버스 마법인형" NameId="$5224" Grade="2" GfxId="5919" Time="1800" Crystal="50" />
+		<Effect Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="430001" >  <!-- 장로 마법인형 -->
+		<Info Name="장로 마법인형" NameId="$5414" Grade="2" GfxId="6443" Time="1800" Crystal="50" />
+		<Effect Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="430500" >  <!-- 코카트리스 마법인형 -->
+		<Info Name="코카트리스 마법인형" NameId="$7510" Grade="2" GfxId="7047" Time="1800" Crystal="50" />
+		<Effect BowDmg="1" BowHit="1" />
+	</Item>
+	<Item ItemId="500109" >  <!-- 눈사람 마법인형 -->
+		<Info Name="눈사람 마법인형" NameId="$10130" Grade="2" GfxId="8751" Time="1800" Crystal="50" />
+		<Effect Hit="1" Dmg="1" />
+	</Item>
+	<Item ItemId="500108" >  <!-- 인어 마법인형 -->
+		<Info Name="인어 마법인형" NameId="$11452" Grade="2" GfxId="8650" Time="1800" Crystal="50" />
+		<Effect Exp="3" />
+	</Item>
+	<Item ItemId="600242" >  <!-- 마법인형: 라바 골렘 -->
+		<Info Name="라바 골렘 마법인형" NameId="$21345" Grade="2" GfxId="13573" Time="1800" Crystal="50" />
+		<Effect Dmg="1" DmgReduction="1" />
+	</Item>
+	
+	<!-- 3단계 마법인형 -->
+	<Item ItemId="500203" >  <!-- 자이언트 마법인형 -->
+		<Info Name="자이언트 마법인형" NameId="$20465" Grade="3" GfxId="8539" BlessGfxId="17663" Time="1800" Crystal="50" />
+		<Effect Exp="10" DmgReduction="1" />
+	</Item>
+	<Item ItemId="500204" >  <!-- 흑장로 마법인형 -->
+		<Info Name="흑장로 마법인형" NameId="$20475" Grade="3" GfxId="12641" BlessGfxId="17662" Time="1800" Crystal="50" />
+		<Effect Mpr="15" MprTime="64" SkillId="10190" SkillChance="10" SkillNameId="$1457"/>
+	</Item>
+	<Item ItemId="500205" >  <!-- 서큐버스 퀸 마법인형 -->
+		<Info Name="서큐버스 마법인형" NameId="$20476" Grade="3" GfxId="12574" BlessGfxId="17661" Time="1800" Crystal="50" />
+		<Effect Sp="1" Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="60324" >  <!-- 드레이크 마법 인형 -->
+		<Info Name="드레이크 마법인형" NameId="$12854" Grade="3" GfxId="10256" BlessGfxId="17664" Time="1800" Crystal="50" />
+		<Effect BowDmg="2" Mpr="6" MprTime="64" />
+	</Item>
+	<Item ItemId="500110" >  <!-- 킹 버그베어 마법인형 -->
+		<Info Name="킹 버그베어 마법인형" NameId="$20886" Grade="3" GfxId="13420" BlessGfxId="17665" Time="1800" Crystal="50" />
+		<Effect Mpr="10" MprTime="64" TechniqueTolerance="8" />
+	</Item>
+	<Item ItemId="600243" >  <!-- 마법인형: 다이아몬드 골렘 -->
+		<Info Name="다이아몬드 골렘 마법인형" NameId="$21346" Grade="3" GfxId="13577" BlessGfxId="17666" Time="1800" Crystal="50" />
+		<Effect DmgReduction="2" />
+	</Item>
+	
+	<!-- 3단계 축복받은 마법인형 -->
+	<Item ItemId="600309" >  <!-- 축복받은 자이언트 마법인형 -->
+		<Info Name="자이언트 마법인형" NameId="$20465" Grade="3" GfxId="8539" BlessGfxId="17663" Time="1800" Crystal="50" />
+		<Effect Ac="+2" Exp="10" DmgReduction="1" />
+	</Item>
+	<Item ItemId="600308" >  <!-- 축복받은 흑장로 마법인형 -->
+		<Info Name="흑장로 마법인형" NameId="$20475" Grade="3" GfxId="12641" BlessGfxId="17662" Time="1800" Crystal="50" />
+		<Effect Ac="+2" Mpr="15" MprTime="64" SkillId="10190" SkillChance="10" SkillNameId="$1457"/>
+	</Item>
+	<Item ItemId="600310" >  <!-- 축복받은 서큐버스 퀸 마법인형 -->
+		<Info Name="서큐버스 마법인형" NameId="$20476" Grade="3" GfxId="12574" BlessGfxId="17661" Time="1800" Crystal="50" />
+		<Effect Ac="+2" Sp="1" Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="600311" >  <!-- 축복받은 드레이크 마법 인형 -->
+		<Info Name="드레이크 마법인형" NameId="$12854" Grade="3" GfxId="10256" BlessGfxId="17664" Time="1800" Crystal="50" />
+		<Effect Ac="+2" BowDmg="2" Mpr="6" MprTime="64" />
+	</Item>
+	<Item ItemId="600312" >  <!-- 축복받은 킹 버그베어 마법인형 -->
+		<Info Name="킹 버그베어 마법인형" NameId="$20886" Grade="3" GfxId="13420" BlessGfxId="17665" Time="1800" Crystal="50" />
+		<Effect Ac="+2" Mpr="10" MprTime="64" TechniqueTolerance="8" />
+	</Item>
+	<Item ItemId="600313" >  <!-- 축복받은 마법인형: 다이아몬드 골렘 -->
+		<Info Name="다이아몬드 골렘 마법인형" NameId="$21346" Grade="3" GfxId="13577" BlessGfxId="17666" Time="1800" Crystal="50" />
+		<Effect Ac="+2" DmgReduction="2" />
+	</Item>
+	
+	
+	
+	<!-- 4단계 마법인형 -->
+	<Item ItemId="5000035" >  <!-- 리치 마법인형 -->
+		<Info Name="리치 마법인형" NameId="$15581" Grade="4" GfxId="7053" BlessGfxId="17668" Time="1800" Crystal="50" />
+		<Effect Sp="2" Hp="80" />
+	</Item>
+	<Item ItemId="500202" >  <!-- 사이클롭스 마법인형 -->
+		<Info Name="사이클롭스 마법인형" NameId="$20464" Grade="4" GfxId="8549" BlessGfxId="17667" Time="1800" Crystal="50" />
+		<Effect Dmg="2" Hit="2" TechniqueTolerance="12" />
+	</Item>
+	<Item ItemId="600245" >  <!-- 마법인형:나이트발드 -->
+		<Info Name="나이트발드 마법인형" NameId="$20888" Grade="4" GfxId="13516" BlessGfxId="17669" Time="1800" Crystal="50" />
+		<Effect Dmg="2" Hit="2" TechniqueHit="5" />
+	</Item>
+	<Item ItemId="600244" >  <!-- 마법인형:시어 -->
+		<Info Name="시어 마법인형" NameId="$20890" Grade="4" GfxId="13524" BlessGfxId="17670" Time="1800" Crystal="50" />
+		<Effect BowDmg="5" Hpr="30" HprTime="64" />
+	</Item>
+	<Item ItemId="142921" >  <!-- 마법인형:뱀파이어 -->
+		<Info Name="뱀파이어 마법인형" NameId="$11142" Grade="4" GfxId="14521" BlessGfxId="17672" Time="1800" Crystal="50" />
+		<Effect Dmg="2" Hit="2" FearHit="3" TechniqueTolerance="5"/>
+	</Item>
+	<Item ItemId="142920" >  <!-- 마법인형:아이리스 -->
+		<Info Name="아이리스 마법인형" NameId="$11141" Grade="4" GfxId="14534" BlessGfxId="17671" Time="1800" Crystal="50" />
+		<Effect FoeDmg="10" DmgReduction="3" />
+	</Item>
+	<Item ItemId="751" >  <!-- 마법인형:머미로드 -->
+		<Info Name="머미로드 마법인형" NameId="$24846" Grade="4" GfxId="14536" BlessGfxId="17673" Time="1800" Crystal="50" />
+		<Effect DmgReduction="2" Exp="10" Mpr="15" MprTime="64" AinEfficiency="2"/>
+	</Item>
+	
+	<!-- 4단계 축복받은 마법인형 -->
+	<Item ItemId="600314" >  <!-- 리치 마법인형 -->
+		<Info Name="리치 마법인형" NameId="$15581" Grade="4" GfxId="7053" BlessGfxId="17668" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" Sp="2" Hp="80" />
+	</Item>
+	<Item ItemId="600315" >  <!-- 사이클롭스 마법인형 -->
+		<Info Name="사이클롭스 마법인형" NameId="$20464" Grade="4" GfxId="8549" BlessGfxId="17667" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" Dmg="2" Hit="2" TechniqueTolerance="12" />
+	</Item>
+	<Item ItemId="600316" >  <!-- 마법인형:나이트발드 -->
+		<Info Name="나이트발드 마법인형" NameId="$20888" Grade="4" GfxId="13516" BlessGfxId="17669" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" Dmg="2" Hit="2" TechniqueHit="5" />
+	</Item>
+	<Item ItemId="600317" >  <!-- 마법인형:시어 -->
+		<Info Name="시어 마법인형" NameId="$20890" Grade="4" GfxId="13524" BlessGfxId="17670" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" BowDmg="5" Hpr="30" HprTime="64" />
+	</Item>
+	<Item ItemId="600319" >  <!-- 마법인형:뱀파이어 -->
+		<Info Name="뱀파이어 마법인형" NameId="$11142" Grade="4" GfxId="14521" BlessGfxId="17672" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" Dmg="2" Hit="2" FearHit="3" TechniqueTolerance="5"/>
+	</Item>
+	<Item ItemId="600318" >  <!-- 마법인형:아이리스 -->
+		<Info Name="아이리스 마법인형" NameId="$11141" Grade="4" GfxId="14534" BlessGfxId="17671" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" FoeDmg="10" DmgReduction="3" />
+	</Item>
+	<Item ItemId="600320" >  <!-- 마법인형:머미로드 -->
+		<Info Name="머미로드 마법인형" NameId="$24846" Grade="4" GfxId="14536" BlessGfxId="17673" Time="1800" Crystal="50" />
+		<Effect Ac="+2" PvpDmg="2" DmgReduction="2" Exp="10" Mpr="15" MprTime="64" AinEfficiency="2"/>
+	</Item>
+	
+	<!-- 5단계 마법인형 -->
+	<Item ItemId="600246" >  <!-- 마법인형:데몬 -->
+		<Info Name="데몬 마법인형" NameId="$20887" Grade="5" GfxId="13464" BlessGfxId="17674" Time="1800" Crystal="50" />
+		<Effect TechniqueTolerance="12" TechniqueHit="10" />
+	</Item>
+	<Item ItemId="600247" >  <!-- 마법인형:데스나이트 -->
+		<Info Name="데스나이트 마법인형" NameId="$20889" Grade="5" GfxId="13520" BlessGfxId="17675" Time="1800" Crystal="50" />
+		<Effect DmgReduction="5" Exp="20" SkillId="10189" SkillChance="10" SkillNameId="$18657" AinEfficiency="7"/>
+	</Item>
+	<Item ItemId="142922" >  <!-- 마법인형:바란카 -->
+		<Info Name="바란카 마법인형" NameId="$11143" Grade="5" GfxId="14527" BlessGfxId="17676" Time="1800" Crystal="50" />
+		<Effect TechniqueTolerance="12" SpiritHit="10" />
+	</Item>
+	<Item ItemId="752" >  <!-- 마법인형:타락 -->
+		<Info Name="타락 마법인형" NameId="$24847" Grade="5" GfxId="15260" BlessGfxId="17677" Time="1800" Crystal="50" />
+		<Effect TechniqueTolerance="10" DragonLangTolerance="5" Sp="3" MagicHit="5"/>
+	</Item>
+	<Item ItemId="753" >  <!-- 마법인형:바포메트 -->
+		<Info Name="바포메트 마법인형" NameId="$25697" Grade="5" GfxId="15975" BlessGfxId="17678" Time="1800" Crystal="50" />
+		<Effect TechniqueTolerance="10" FearHit="5" />
+	</Item>
+	<Item ItemId="754" >  <!-- 마법인형:얼음여왕 -->
+		<Info Name="얼음여왕 마법인형" NameId="$25698" Grade="5" GfxId="15969" BlessGfxId="17679" Time="1800" Crystal="50" />
+		<Effect TechniqueTolerance="10" SpiritTolerance="7" BowDmg="5" BowHit="5"/>
+	</Item>
+	<Item ItemId="755" >  <!-- 마법인형:커츠 -->
+		<Info Name="커츠 마법인형" NameId="$25699" Grade="5" GfxId="15978" BlessGfxId="17680" Time="1800" Crystal="50" />
+		<Effect Ac="+2" FoeDmg="10" TechniqueTolerance="10" DragonLangTolerance="5" DmgReduction="3"/>
+	</Item>
+	
+	<Item ItemId="600321" >  <!-- 축복받은마법인형:데몬 -->
+		<Info Name="데몬 마법인형" NameId="$20887" Grade="5" GfxId="13464" BlessGfxId="17674" Time="1800" Crystal="50" />
+		<Effect TAc="+3" PvpDmg="2" PvpReduction="4" echniqueTolerance="12" TechniqueHit="10" />
+	</Item>
+	<Item ItemId="600322" >  <!-- 축복받은마법인형:데스나이트 -->
+		<Info Name="데스나이트 마법인형" NameId="$20889" Grade="5" GfxId="13520" BlessGfxId="17675" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="2" PvpReduction="4" DmgReduction="5" Exp="20" SkillId="10189" SkillChance="10" SkillNameId="$18657" AinEfficiency="7"/>
+	</Item>
+	<Item ItemId="600323" >  <!-- 축복받은마법인형:바란카 -->
+		<Info Name="바란카 마법인형" NameId="$11143" Grade="5" GfxId="14527" BlessGfxId="17676" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="2" PvpReduction="4" TechniqueTolerance="12" SpiritHit="10" />
+	</Item>
+	<Item ItemId="600324" >  <!-- 축복받은마법인형:타락 -->
+		<Info Name="타락 마법인형" NameId="$24847" Grade="5" GfxId="15260" BlessGfxId="17677" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="2" PvpReduction="4" TechniqueTolerance="10" DragonLangTolerance="5" Sp="3" MagicHit="5"/>
+	</Item>
+	<Item ItemId="600325" >  <!-- 축복받은마법인형:바포메트 -->
+		<Info Name="바포메트 마법인형" NameId="$25697" Grade="5" GfxId="15975" BlessGfxId="17678" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="2" PvpReduction="4" TechniqueTolerance="10" FearHit="5" />
+	</Item>
+	<Item ItemId="600326" >  <!-- 축복받은마법인형:얼음여왕 -->
+		<Info Name="얼음여왕 마법인형" NameId="$25698" Grade="5" GfxId="15969" BlessGfxId="17679" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="2" PvpReduction="4" TechniqueTolerance="10" SpiritTolerance="7" BowDmg="5" BowHit="5"/>
+	</Item>
+	<Item ItemId="600327" >  <!-- 축복받은마법인형:커츠 -->
+		<Info Name="커츠 마법인형" NameId="$25699" Grade="5" GfxId="15978" BlessGfxId="17680" Time="1800" Crystal="50" />
+		<Effect Ac="+5" PvpDmg="2" PvpReduction="4" FoeDmg="10" TechniqueTolerance="10" DragonLangTolerance="5" DmgReduction="3"/>
+	</Item>
+	
+	<Item ItemId="600261" >  <!-- 마법인형:린드비오르 -->
+		<Info Name="린드비오르 마법인형" NameId="$20891" Grade="6" GfxId="12620" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="4" PvpReduction="2" AllTolerance="5" AllHit="3" BowDmg="4" BowHit="8" Mpr="5" MprTime="64"/>
+	</Item>	
+	<Item ItemId="600262" >  <!-- 마법인형:발라카스 -->
+		<Info Name="발라카스 마법인형" NameId="$20892" Grade="6" GfxId="12624" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="4" PvpReduction="2" AllTolerance="5" AllHit="3" Dmg="4" Hit="8" Mpr="5" MprTime="64"/>
+	</Item>	
+	<Item ItemId="600259" >  <!-- 마법인형:안타라스 -->
+		<Info Name="안타라스 마법인형" NameId="$20893" Grade="6" GfxId="12604" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="4" PvpReduction="2" DmgReduction="6" Exp="25" Mpr="15" MprTime="64" AinEfficiency="7"/>
+	</Item>	
+	<Item ItemId="600260" >  <!-- 마법인형:파푸리온 -->
+		<Info Name="파푸리온 마법인형" NameId="$20894" Grade="6" GfxId="12628" Time="1800" Crystal="50" />
+		<Effect Ac="+3" PvpDmg="4" PvpReduction="2" AllTolerance="5" AllHit="3" MagicHit="8" Sp="4" Mpr="5" MprTime="64"/>
+	</Item>	
+		
+	<!-- N샵 마법인형 -->
+	<Item ItemId="25741" >  <!-- 마법인형: 진 데스나이트의 사신 -->
+		<Info Name="진 데스나이트의 사신 마법인형" NameId="$28465" Grade="7" GfxId="11316" Time="1800" Crystal="50" />
+		<Effect DmgReduction="2" Exp="7" Mpr="10" MprTime="64"/>
+	</Item>
+	<Item ItemId="430506" >  <!-- 마법인형: 스파토이 -->
+		<Info Name="스파토이 마법인형" NameId="$7399" Grade="7" GfxId="7257" Time="1800" Crystal="50" />
+		<Effect Dmg="2" TechniqueTolerance="10" />
+	</Item>
+	<Item ItemId="210086" >  <!-- 마법인형: 시댄서 -->
+		<Info Name="시댄서 마법인형" NameId="$5886" Grade="7" GfxId="6477" Time="1800" Crystal="50" />
+		<Effect Hpr="2" HprTime="32" />
+	</Item>
+	<Item ItemId="5992" >  <!-- 라미아 마법인형 -->
+		<Info Name="라미아 마법인형" NameId="$7450" Grade="7" GfxId="6483" Time="1800" Crystal="50" />
+		<Effect Mpr="4" />
+	</Item>
+	<Item ItemId="5000034" >  <!-- 에틴 마법인형 -->
+		<Info Name="에틴 마법인형" NameId="$10190" Grade="7" GfxId="8741" Time="1800" Crystal="50" />
+		<Effect Haste="1" Ac="-2" SpiritTolerance="10" />
+	</Item>
+	<Item ItemId="41915" >  <!-- 허수아비 마법인형 -->
+		<Info Name="허수아비 마법인형" NameId="$9591" Grade="7" GfxId="7050" Time="1800" Crystal="50" />
+		<Effect Hit="2" BowHit="2" Hp="50" Mp="30" />
+	</Item>
+	<Item ItemId="447015" >  <!-- 그렘린 마법인형 -->
+		<Info Name="그렘린 마법인형" NameId="$16643" Grade="7" GfxId="11965" Time="600" Crystal="50" />
+		<Effect Dmg="2" BowDmg="2" Sp="1" Hp="30" Mpr="10" MprTime="64" />
+	</Item>	
+
+	<!-- 기타 마법인형 -->
+	<Item ItemId="5991" >  <!-- 옥토끼 마법인형 -->
+		<Info Name="옥토끼 마법인형" NameId="$25363" GfxId="14303" Time="1800" Crystal="50" />
+		<Effect Dmg="2" Hit="2" BowDmg="2" BowHit="2" Make="435014" MakeTime="900" />
+	</Item>
+
+	<Item ItemId="510216" >  <!-- 눈사람(A) 마법인형 -->
+		<Info Name="눈사람(A) 마법인형" NameId="$10130" GfxId="8751" Time="1800" Crystal="50" />
+		<Effect BowHit="5" Exp="10" />
+	</Item>
+	<Item ItemId="510217" >  <!-- 눈사람(B) 마법인형 -->
+		<Info Name="눈사람(B) 마법인형" NameId="$10130" GfxId="8751" Time="1800" Crystal="50" />
+		<Effect Mpr="18" MprTime="64" Exp="10"/>
+	</Item>
+	<Item ItemId="510218" >  <!-- 눈사람(C) 마법인형 -->
+		<Info Name="눈사람(C) 마법인형" NameId="$10130" GfxId="8751" Time="1800" Crystal="50" />
+		<Effect Hpr="60" HprTime="64" Exp="10" />
+	</Item>
+	
+	<Item ItemId="42257" >  <!-- 마법인형: 지배자의 현신(1등급) -->
+		<Info Name="지배자의 현신(1등급)" NameId="$24671" Grade="8" GfxId="13258" Time="1800" Crystal="50" />
+		<Effect DmgReduction="5" Exp="30" SkillId="10191" SkillChance="10" SkillNameId="$24692"/>
+	</Item>
+	<Item ItemId="42258" >  <!-- 마법인형: 지배자의 현신(2등급) -->
+		<Info Name="지배자의 현신(2등급)" NameId="$24671" Grade="8" GfxId="13254" Time="1800" Crystal="50" />
+		<Effect DmgReduction="4" Exp="30" SkillId="10192" SkillChance="10" SkillNameId="$24692"/>
+	</Item>
+	<Item ItemId="42259" >  <!-- 마법인형: 지배자의 현신(3등급) -->
+		<Info Name="지배자의 현신(3등급)" NameId="$24671" Grade="8" GfxId="13250" Time="1800" Crystal="50" />
+		<Effect DmgReduction="3" Exp="30" SkillId="10193" SkillChance="10" SkillNameId="$24692"/>
+	</Item>
+	<Item ItemId="42260" >  <!-- 마법인형: 지배자의 현신(4등급) -->
+		<Info Name="지배자의 현신(4등급)" NameId="$24671" Grade="8" GfxId="12991" Time="1800" Crystal="50" />
+		<Effect DmgReduction="2" Exp="30" SkillId="10194" SkillChance="10" SkillNameId="$24692"/>
+	</Item>
+	<Item ItemId="42277" >  <!-- 마법인형: 지배자의 사신(5등급) -->
+		<Info Name="지배자의 사신(5등급)" NameId="$27593" Grade="8" GfxId="10726" Time="1800" Crystal="50" />
+		<Effect Exp="25" DmgReduction="5" Mpr="10" MprTime="64"/>
+	</Item>
+	<Item ItemId="42278" >  <!-- 마법인형: 지배자의 사신(4등급) -->
+		<Info Name="지배자의 사신(4등급)" NameId="$27593" Grade="8" GfxId="10723" Time="1800" Crystal="50" />
+		<Effect Exp="25" DmgReduction="5" Mpr="10" MprTime="64"/>
+	</Item>
+	<Item ItemId="42279" >  <!-- 마법인형: 지배자의 사신(3등급) -->
+		<Info Name="지배자의 사신(3등급)" NameId="$27593" Grade="8" GfxId="10720" Time="1800" Crystal="50" />
+		<Effect Exp="25" DmgReduction="5" Mpr="10" MprTime="64"/>
+	</Item>
+	<Item ItemId="447012" >  <!-- 챔피언 마법인형 -->
+		<Info Name="챔피언 마법인형" NameId="$14566" GfxId="11225" Time="1800" Crystal="50" />
+		<Effect Dmg="2" Hp="30" Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="447013" >  <!-- 새 마법인형 -->
+		<Info Name="새 마법인형" NameId="$14567" GfxId="11229" Time="1800" Crystal="50" />
+		<Effect BowDmg="2" Hp="30" Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="447014" >  <!-- 강남스타일 마법인형 -->
+		<Info Name="강남스타일 마법인형" NameId="$14568" GfxId="11227" Time="1800" Crystal="50" />
+		<Effect Sp="1" Hp="30" Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="500212" >  <!-- 단디 마법인형 -->
+		<Info Name="단디 마법인형" NameId="$15517" GfxId="11611" Time="1800" Crystal="200" />
+		<Effect Dmg="2" BowDmg="2" Sp="2" Hp="50" Mp="30" Mpr="15" MprTime="64" />
+	</Item>
+	<Item ItemId="500243" >  <!-- 쎄리 마법인형 -->
+		<Info Name="쎄리 마법인형" NameId="$15518" GfxId="11608" Time="1800" Crystal="200" />
+		<Effect Dmg="2" BowDmg="2" Sp="2" Hp="50" Mp="30" Hpr="30" HprTime="32" />
+	</Item>
+	<Item ItemId="30022" >  <!-- 블레그 마법인형 -->
+		<Info Name="블레그 마법인형" NameId="$14047" GfxId="9705" Time="1800" Crystal="50" />
+		<Effect Dmg="2" BowDmg="2" Sp="1" SkillId="38" SkillChance="10" SkillNameId="$1972"/>
+	</Item>
+	<Item ItemId="30023" >  <!-- 레데그 마법인형 -->
+		<Info Name="레데그 마법인형" NameId="$14048" GfxId="9693" Time="1800" Crystal="50" />
+		<Effect Dmg="2" BowDmg="2" Sp="1" SkillId="15" SkillChance="10" SkillNameId="$1968"/>
+	</Item>
+	<Item ItemId="30024" >  <!-- 엘레그 마법인형 -->
+		<Info Name="엘레그 마법인형" NameId="$14049" GfxId="10266" Time="1800" Crystal="50" />
+		<Effect Dmg="2" BowDmg="2" Sp="1" SkillId="16" SkillChance="10" SkillNameId="$1969"/>
+	</Item>
+	<Item ItemId="30025" >  <!-- 그레그 마법인형 -->
+		<Info Name="그레그 마법인형" NameId="$14050" GfxId="9699" Time="1800" Crystal="50" />
+		<Effect Dmg="2" BowDmg="2" Sp="1" SkillId="7" SkillChance="10" SkillNameId="$1967"/>
+	</Item>
+	<Item ItemId="210106" >  <!-- 해츨링 마법인형 -->
+		<Info Name="해츨링 마법인형" NameId="$7901" GfxId="7662" Time="18000" Crystal="500" />
+		<Effect WeightReduction="10" Mpr="5" Make="49302" MakeTime="240" />
+	</Item>
+	<Item ItemId="210107" >  <!-- 해츨링 마법인형 -->
+		<Info Name="해츨링 마법인형" NameId="$7901" GfxId="7661" Time="18000" Crystal="500" />
+		<Effect WeightReduction="10" Mpr="5" Make="49302" MakeTime="240" />
+	</Item>
+	<Item ItemId="210108" >  <!-- 진화된 해츨링 마법인형 -->
+		<Info Name="진화된 해츨링 마법인형" NameId="$7901" GfxId="7659" Time="18000" Crystal="500" />
+		<Effect WeightReduction="10" Mpr="5" Make="49302" MakeTime="240" />
+	</Item>
+	<Item ItemId="210109" >  <!-- 진화된 해츨링 마법인형 -->
+		<Info Name="진화된 해츨링 마법인형" NameId="$7901" GfxId="7660" Time="18000" Crystal="500" />
+		<Effect WeightReduction="10" Mpr="5" Make="49302" MakeTime="240" />
+	</Item>
+	<Item ItemId="42265" >  <!-- 붉은 코카트리스 마법인형 -->
+		<Info Name="붉은 코카트리스 마법인형" NameId="$26144" GfxId="16064" Time="1800" Crystal="500" />
+		<Effect Dmg="2" BowDmg="2" Hit="2" BowHit="2" Sp="2" WeightReduction="500" Exp="10" Make="42266" MakeTime="900" />
+	</Item>
+</ItemEffectList>
