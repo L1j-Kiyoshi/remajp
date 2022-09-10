@@ -66,7 +66,7 @@ public class NurtureChatController implements Runnable {
 		public void run() {
 			try {
 				S_ChatPacket s_chatpacket = new S_ChatPacket(bot,
-						"\\\\f=f=º£Æ®³² ¼öµ¿À°¼º NO.1 À°¼º¹®ÀÇ Ä«Åå LEVEL79 ¿¬¶ôÁÖ¼¼¿ä!",
+						"\\\\f=f=«Ù«È«Ê«àáôÔÑëÀà÷ NO.1 ëÀà÷Ú¦ªÎ«««È«¯ LEVEL79 ª´Ö§Õ©ª¯ªÀªµª¤!",
 						Opcodes.S_SAY, 0);
 				for (L1PcInstance listner : L1World.getInstance()
 						.getRecognizePlayer(bot)) {
