@@ -125,7 +125,7 @@ public class ItemBayChatController implements Runnable {
 			L1RobotInstance newPc = new L1RobotInstance();
 			newPc.setId(ObjectIdFactory.getInstance().nextId());
 			newPc.setAccountName("");
-			String name = "아이템매니아";
+			String name = "アイテムマニア";
 			if (i < 9)
 				name += "0" + i;
 			else
