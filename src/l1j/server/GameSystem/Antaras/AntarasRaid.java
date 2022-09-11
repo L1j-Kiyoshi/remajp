@@ -1,45 +1,11 @@
 /* Eva Pack -http://eva.gg.gg
- * º»¼· ¸®´º¾óµÈ ¾ÈÅ¸¶ó½º ·¹ÀÌµå ½Ã½ºÅÛ
+ * æœ¬è˜ãƒªãƒ‹ãƒ¥ãƒ¼ã‚¢ãƒ«ã•ã‚ŒãŸã‚¢ãƒ³ã‚¿ãƒ©ã‚¹ãƒ¬ã‚¤ãƒ‰ã‚·ã‚¹ãƒ†ãƒ 
  * Eva ShaSha
  */
 
 package l1j.server.GameSystem.Antaras;
 
-import static l1j.server.server.model.skill.L1SkillId.ABSOLUTE_BARRIER;
-import static l1j.server.server.model.skill.L1SkillId.ADVANCE_SPIRIT;
-import static l1j.server.server.model.skill.L1SkillId.ARMOR_BREAK;
-import static l1j.server.server.model.skill.L1SkillId.BLESSED_ARMOR;
-import static l1j.server.server.model.skill.L1SkillId.BOUNCE_ATTACK;
-import static l1j.server.server.model.skill.L1SkillId.COOKING_BEGIN;
-import static l1j.server.server.model.skill.L1SkillId.COOKING_END;
-import static l1j.server.server.model.skill.L1SkillId.COUNTER_BARRIER;
-import static l1j.server.server.model.skill.L1SkillId.COUNTER_MAGIC;
-import static l1j.server.server.model.skill.L1SkillId.DRESS_EVASION;
-import static l1j.server.server.model.skill.L1SkillId.ENCHANT_WEAPON;
-import static l1j.server.server.model.skill.L1SkillId.IllUSION_AVATAR;
-import static l1j.server.server.model.skill.L1SkillId.IllUSION_DIAMONDGOLEM;
-import static l1j.server.server.model.skill.L1SkillId.IllUSION_LICH;
-import static l1j.server.server.model.skill.L1SkillId.IllUSION_OGRE;
-import static l1j.server.server.model.skill.L1SkillId.REDUCTION_ARMOR;
-import static l1j.server.server.model.skill.L1SkillId.SCALES_EARTH_DRAGON;
-import static l1j.server.server.model.skill.L1SkillId.SCALES_FIRE_DRAGON;
-import static l1j.server.server.model.skill.L1SkillId.SCALES_WATER_DRAGON;
-import static l1j.server.server.model.skill.L1SkillId.SHADOW_ARMOR;
-import static l1j.server.server.model.skill.L1SkillId.SHADOW_FANG;
-import static l1j.server.server.model.skill.L1SkillId.SHOCK_STUN;
-import static l1j.server.server.model.skill.L1SkillId.SKILLS_BEGIN;
-import static l1j.server.server.model.skill.L1SkillId.SKILLS_END;
-import static l1j.server.server.model.skill.L1SkillId.SOLID_CARRIAGE;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_BEGIN;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_CANCLEEND;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_CURSE_BARLOG;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_CURSE_YAHEE;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_DRAGONPERL;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_FREEZE;
-import static l1j.server.server.model.skill.L1SkillId.STATUS_UNDERWATER_BREATH;
-import static l1j.server.server.model.skill.L1SkillId.UNCANNY_DODGE;
-import static l1j.server.server.model.skill.L1SkillId.µ¥½ºÆä¶óµµ;
-import static l1j.server.server.model.skill.L1SkillId.ÆÄ¿ö±×¸³;
+import static l1j.server.server.model.skill.L1SkillId.*;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -106,7 +72,7 @@ public class AntarasRaid {
 
 	public AntarasRaid(int id) {
 		_id = id;
-		_endtime = System.currentTimeMillis() + 7200000;// 2½Ã°£ ÈÄ
+		_endtime = System.currentTimeMillis() + 7200000;// 2æ™‚é–“å¾Œ
 		MiniBoss1.put(1, false);
 		MiniBoss1.put(2, false);
 		MiniBoss1.put(3, false);
@@ -124,7 +90,7 @@ public class AntarasRaid {
 
 	public void timeOverRun(int type) {
 		switch (type) {
-		case -4:// 4¹øÂ° ¹æ 2ºĞ ¿À¹ö ¸÷ ¼ÒÈ¯
+		case -4:// 4ë²ˆì§¸ ë°© 2ë¶„ ì˜¤ë²„ ëª¹ ì†Œí™˜
 			AntarasMsgTimer room4 = new AntarasMsgTimer(_id, 4);
 			GeneralThreadPool.getInstance().execute(room4);
 			break;
@@ -141,80 +107,80 @@ public class AntarasRaid {
 			GeneralThreadPool.getInstance().execute(room1);
 			break;
 
-		case 0:// 1¹ø¹æ Ã¼Å© 20ºĞ Å¸ÀÓ Á¾·á½Ã
+		case 0:// 1ë²ˆë°© ì²´í¬ 20ë¶„ íƒ€ì„ ì¢…ë£Œì‹œ
 			break;
-		case 1:// 1¹ø¹æ Ã¼Å© 20ºĞ Å¸ÀÓ Á¾·á½Ã
+		case 1:// 1ë²ˆë°© ì²´í¬ 20ë¶„ íƒ€ì„ ì¢…ë£Œì‹œ
 			break;
-		case 2:// 2¹ø¹æ Ã¼Å© 20ºĞ Å¸ÀÓ Á¾·á½Ã
+		case 2:// 2ë²ˆë°© ì²´í¬ 20ë¶„ íƒ€ì„ ì¢…ë£Œì‹œ
 			break;
-		case 3:// 3¹ø¹æ Ã¼Å© 20ºĞ Å¸ÀÓ Á¾·á½Ã
+		case 3:// 3ë²ˆë°© ì²´í¬ 20ë¶„ íƒ€ì„ ì¢…ë£Œì‹œ
 			break;
-		case 4:// 4¹øÂ° ¹æ 2ºĞ ¿À¹ö ¸÷ ¼ÒÈ¯
+		case 4:// 4ë²ˆì§¸ ë°© 2ë¶„ ì˜¤ë²„ ëª¹ ì†Œí™˜
 			break;
 
-		case 5:// ¾ÈÅ¸¶ó½º
+		case 5:// ì•ˆíƒ€ë¼ìŠ¤
 			antamsg anta = new antamsg(_id, 0);
 			GeneralThreadPool.getInstance().execute(anta);
-			// ¸÷ ¼ÒÈ¯
+			// ëª¹ ì†Œí™˜
 			break;
-		case 6:// ¾ÈÅ¸¹æ¿¡ ÀÖ´Â »ç¶÷ ¸ğµÎ ÅÚ½ÃÅ²´Ù
+		case 6:// ì•ˆíƒ€ë°©ì— ìˆëŠ” ì‚¬ëŒ ëª¨ë‘ í…”ì‹œí‚¨ë‹¤
 			if (isAntaras() == true) {
 				antamsg anta1 = new antamsg(_id, 1);
 				GeneralThreadPool.getInstance().execute(anta1);
 			}
 			break;
-		case 7:// 1Â÷¾ÈÅ¸ µÚÁú¶§ ¸àÆ® »ÑÀ×
+		case 7:// 1ì°¨ì•ˆíƒ€ ë’¤ì§ˆë•Œ ë©˜íŠ¸ ë¿Œì‰
 			/*
 			 * try{ for (L1PcInstance player:
 			 * L1World.getInstance().getAllPlayers()){ if(player.getMapId()==
-			 * anta().getMapId()){ createNewItem(player, 787878, 1); //ÈçÀû 1 for
+			 * anta().getMapId()){ createNewItem(player, 787878, 1); //í”ì  1 for
 			 * (L1Object temp :
 			 * L1World.getInstance().getVisibleObjects(player.getMapId
 			 * ()).values()){ if(temp instanceof L1PcInstance) ((L1PcInstance)
-			 * temp).sendPackets(new S_ServerMessage(813, "¾ÈÅ¸¶ó½º", "´Ş¾Æ³­ µå·¡°ïÀÇ ÈçÀû",
+			 * temp).sendPackets(new S_ServerMessage(813, "ì•ˆíƒ€ë¼ìŠ¤", "ë‹¬ì•„ë‚œ ë“œë˜ê³¤ì˜ í”ì ",
 			 * player.getName())); } //S_SystemMessage sm1 = new
-			 * S_SystemMessage("¾ÈÅ¸¶ó½º °¡ ´Ş¾Æ³­ µå·¡°ïÀÇ ÈçÀûÀ» ÁÖ¾ú½À´Ï´Ù. ");
+			 * S_SystemMessage("ì•ˆíƒ€ë¼ìŠ¤ ê°€ ë‹¬ì•„ë‚œ ë“œë˜ê³¤ì˜ í”ì ì„ ì£¼ì—ˆìŠµë‹ˆë‹¤. ");
 			 * //player.sendPackets(sm1); sm1=null; } } }catch(Exception e){}
 			 */
 			antamsg anta1 = new antamsg(_id, 2);
 			GeneralThreadPool.getInstance().execute(anta1);
 			break;
-		case 8:// 2Â÷¾ÈÅ¸ µÚÁú¶§ ¸àÆ® »ÑÀ×
+		case 8:// 2ì°¨ì•ˆíƒ€ ë’¤ì§ˆë•Œ ë©˜íŠ¸ ë¿Œì‰
 			/*
 			 * for (L1PcInstance player: L1World.getInstance().getAllPlayers()){
 			 * if(player.getMapId()== anta().getMapId()){ createNewItem(player,
-			 * 787878, 1); //ÈçÀû 1 for (L1Object temp :
+			 * 787878, 1); //í”ì  1 for (L1Object temp :
 			 * L1World.getInstance().getVisibleObjects
 			 * (player.getMapId()).values()){ if(temp instanceof L1PcInstance)
 			 * ((L1PcInstance) temp).sendPackets(new S_ServerMessage(813,
-			 * "¾ÈÅ¸¶ó½º", "´Ş¾Æ³­ µå·¡°ïÀÇ ÈçÀû", player.getName())); } //S_SystemMessage
-			 * sm1 = new S_SystemMessage("¾ÈÅ¸¶ó½º °¡ ´Ş¾Æ³­ µå·¡°ïÀÇ ÈçÀûÀ» ÁÖ¾ú½À´Ï´Ù. ");
+			 * "ì•ˆíƒ€ë¼ìŠ¤", "ë‹¬ì•„ë‚œ ë“œë˜ê³¤ì˜ í”ì ", player.getName())); } //S_SystemMessage
+			 * sm1 = new S_SystemMessage("ì•ˆíƒ€ë¼ìŠ¤ ê°€ ë‹¬ì•„ë‚œ ë“œë˜ê³¤ì˜ í”ì ì„ ì£¼ì—ˆìŠµë‹ˆë‹¤. ");
 			 * //player.sendPackets(sm1); sm1=null; } }
 			 */
 			antamsg anta2 = new antamsg(_id, 3);
 			GeneralThreadPool.getInstance().execute(anta2);
 			break;
-		case 9:// 3Â÷¾ÈÅ¸ µÚÁú¶§ ¸àÆ® »ÑÀ×
+		case 9:// 3ì°¨ì•ˆíƒ€ ë’¤ì§ˆë•Œ ë©˜íŠ¸ ë¿Œì‰
 			L1World.getInstance().broadcastServerMessage(
-					"³­ÀïÀÌÀÇ ¿ÜÄ§ : ¾ÈÅ¸¶ó½ºÀÇ °ËÀº ¼û°áÀ» ¸ØÃß°Ô ÇÑ ¿ë»çµéÀÌ Åº»ı ÇÏ¿´½À´Ï´Ù.!!");
+					"ë‚œìŸì´ì˜ ì™¸ì¹¨ : ì•ˆíƒ€ë¼ìŠ¤ì˜ ê²€ì€ ìˆ¨ê²°ì„ ë©ˆì¶”ê²Œ í•œ ìš©ì‚¬ë“¤ì´ íƒ„ìƒ í•˜ì˜€ìŠµë‹ˆë‹¤.!!");
 			GeneralThreadPool.getInstance().schedule(new Runnable() {
 				public void run() {
 					for (L1PcInstance player : L1World.getInstance()
 							.getAllPlayers()) {
 						if (player.getMapId() == anta().getMapId()) {
-							createNewItem(player, 5000064, 1); // ÈçÀû 1
+							createNewItem(player, 5000064, 1); // í”ì  1
 							for (L1Object temp : L1World.getInstance()
 									.getVisibleObjects(player.getMapId())
 									.values()) {
 								if (temp instanceof L1PcInstance)
 									((L1PcInstance) temp).sendPackets(new S_ServerMessage(
-											813, "¾ÈÅ¸¶ó½º", "Áö·æÀÇ Ç¥½Ä", player
+											813, "ì•ˆíƒ€ë¼ìŠ¤", "ì§€ë£¡ì˜ í‘œì‹", player
 													.getName()));
-							
-							
+
+
 							}
 							// S_SystemMessage sm1 = new
-							// S_SystemMessage("¾ÈÅ¸¶ó½º°¡ Á×À¸¸é¼­ ÁõÇ¥¸¦ ³²°å½À´Ï´Ù.");
+							// S_SystemMessage("ì•ˆíƒ€ë¼ìŠ¤ê°€ ì£½ìœ¼ë©´ì„œ ì¦í‘œë¥¼ ë‚¨ê²¼ìŠµë‹ˆë‹¤.");
 							// player.sendPackets(sm1); sm1=null;
 						}
 					}
@@ -224,7 +190,7 @@ public class AntarasRaid {
 			GeneralThreadPool.getInstance().execute(anta3);
 			break;
 
-		case 10: {// ¾ÈÅ¸ 1Â÷ ¿ë¾ğ
+		case 10: {// ì•ˆíƒ€ 1ì°¨ ìš©ì–¸
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -252,10 +218,10 @@ public class AntarasRaid {
 								sm = null;
 								pc.getInventory().receiveDamage(weapon, 5);
 							}
-							// ////////////////////////////////////////¿şÆùºê·¹ÀÌÅ©
+							// ////////////////////////////////////////ì›¨í°ë¸Œë ˆì´í¬
 							// ////////////////////////////
 							L1ParalysisPoison.doInfection(pc, 8000, 15000);
-							// ////////////////////////////////////////¸¶ºñµ¶
+							// ////////////////////////////////////////ë§ˆë¹„ë…
 							// ////////////////////////////
 						}
 					}
@@ -269,7 +235,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 11: {// ¾ÈÅ¸ Æ¼ ¼¼Åä¸£
+		case 11: {// ì•ˆíƒ€ í‹° ì„¸í† ë¥´
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -279,8 +245,8 @@ public class AntarasRaid {
 					S_DoActionGFX gfx1 = new S_DoActionGFX(anta().getId(), 41);
 					Broadcaster.broadcastPacket(anta(), gfx1);
 					gfx1 = null;
-					// ½ºÆù
-					// À¯Àúµé À§Ä¡º¯°æ...
+					// ìŠ¤í°
+					// ìœ ì €ë“¤ ìœ„ì¹˜ë³€ê²½...
 					L1SpawnUtil.spawn2(anta().getX(), anta().getY(), anta()
 							.getMapId(), 4038014, 5, 0, 0);
 					L1SpawnUtil.spawn2(anta().getX(), anta().getY(), anta()
@@ -336,10 +302,10 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 12: {// ¾ÈÅ¸ ¹ÂÁî»ï
+		case 12: {// ì•ˆíƒ€ ë®¤ì¦ˆì‚¼
 			if (anta().isParalyzed()) {
 				return;
-			}// 47 = °íÇÔ
+			}// 47 = ê³ í•¨
 			synchronized (anta().synchObject) {
 				try {
 					anta().setParalyzed(true);
@@ -402,7 +368,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 13: {// ¾ÈÅ¸ ³ÊÃ÷ »ï
+		case 13: {// ì•ˆíƒ€ ë„ˆì¸  ì‚¼
 			try {
 				if (anta().isParalyzed()) {
 					return;
@@ -479,7 +445,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 14: {// ¾ÈÅ¸ Æ¼ÇÁ »ï
+		case 14: {// ì•ˆíƒ€ í‹°í”„ ì‚¼
 			try {
 				if (anta().isParalyzed()) {
 					return;
@@ -570,7 +536,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 15: {// ¾ÈÅ¸ ¸®¶óÇÁ
+		case 15: {// ì•ˆíƒ€ ë¦¬ë¼í”„
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -599,7 +565,7 @@ public class AntarasRaid {
 								sm = null;
 								pc.getInventory().receiveDamage(weapon, 5);
 							}
-							// ////////////////////////////////////////¿şÆùºê·¹ÀÌÅ©
+							// ////////////////////////////////////////ì›¨í°ë¸Œë ˆì´í¬
 							// ////////////////////////////
 						}
 					}
@@ -614,7 +580,7 @@ public class AntarasRaid {
 		}
 			break;
 
-		case 16: {// ¾ÈÅ¸ ÄË ·Î¿ì
+		case 16: {// ì•ˆíƒ€ ì¼„ ë¡œìš°
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -645,10 +611,10 @@ public class AntarasRaid {
 				}
 			} catch (Exception e) {
 			}
-			// ///////////////////////µ¶±¸¸§... ÆÄÀÌ¾î¿ùÃ³·³?////////////
+			// ///////////////////////ë…êµ¬ë¦„... íŒŒì´ì–´ì›”ì²˜ëŸ¼?////////////
 		}
 			break;
-		case 17: {// ¾ÈÅ¸ Æ¼±â¸£
+		case 17: {// ì•ˆíƒ€ í‹°ê¸°ë¥´
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -699,7 +665,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 18: {// ¾ÈÅ¸ ¸®¶óÇÁ
+		case 18: {// ì•ˆíƒ€ ë¦¬ë¼í”„
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -774,7 +740,7 @@ public class AntarasRaid {
 		}
 			break;
 
-		case 19: {// ¾ÈÅ¸ ·ç¿À Å¸..
+		case 19: {// ì•ˆíƒ€ ë£¨ì˜¤ íƒ€..
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -828,7 +794,7 @@ public class AntarasRaid {
 		}
 			break;
 
-		case 20: {// ÄÉ³×½Ã.
+		case 20: {// ì¼€ë„¤ì‹œ.
 			if (anta().isParalyzed()) {
 				return;
 			}// 2510
@@ -844,7 +810,7 @@ public class AntarasRaid {
 						Thread.sleep(anta().calcSleepTime(time, 2));
 					if (anta().isDead() || anta()._destroyed)
 						return;
-					// /////////////////////Äµ½½///////////////////////////
+					// /////////////////////ìº”ìŠ¬///////////////////////////
 					S_DoActionGFX gfx4 = new S_DoActionGFX(anta().getId(), 18);
 					Broadcaster.broadcastPacket(anta(), gfx4);
 					gfx4 = null;
@@ -862,10 +828,10 @@ public class AntarasRaid {
 								Broadcaster.broadcastPacket(pc, ss1);
 								pc.sendPackets(ss1);
 								ss1 = null;
-								// Äµ½½
+								// ìº”ìŠ¬
 								can(pc);
 							}
-							L1ParalysisPoison.doInfection(pc, 8000, 15000);// ¸¶ºñ
+							L1ParalysisPoison.doInfection(pc, 8000, 15000);// ë§ˆë¹„
 							if (!ck) {
 								ck = true;
 								new L1SkillUse().handleCommands(null, 40055,
@@ -888,10 +854,10 @@ public class AntarasRaid {
 		}
 			break;
 
-		case 21: {// ¾ÈÅ¸ ¹ÂÁî½É<<
+		case 21: {// ì•ˆíƒ€ ë®¤ì¦ˆì‹¬<<
 			if (anta().isParalyzed()) {
 				return;
-			}// 47 = °íÇÔ
+			}// 47 = ê³ í•¨
 			try {
 				synchronized (anta().synchObject) {
 					anta().setParalyzed(true);
@@ -937,7 +903,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 22: {// ¾ÈÅ¸ ³ÊÃ÷ ½É<<
+		case 22: {// ì•ˆíƒ€ ë„ˆì¸  ì‹¬<<
 			if (anta().isParalyzed()) {
 				return;
 			}
@@ -1001,7 +967,7 @@ public class AntarasRaid {
 			}
 		}
 			break;
-		case 23: {// ¾ÈÅ¸ Æ¼ÇÁ ½É<<
+		case 23: {// ì•ˆíƒ€ í‹°í”„ ì‹¬<<
 			if (anta().isParalyzed()) {
 				return;
 			}
@@ -1103,13 +1069,13 @@ public class AntarasRaid {
 			item.setCount(count);
 			if (pc.getInventory().checkAddItem(item, count) == L1Inventory.OK) {
 				pc.getInventory().storeItem(item);
-			} else { // °¡Áú ¼ö ¾ø´Â °æ¿ì´Â Áö¸é¿¡ ¶³¾î¶ß¸®´Â Ã³¸®ÀÇ Äµ½½Àº ÇÏÁö ¾Ê´Â´Ù(ºÎÁ¤ ¹æÁö)
+			} else { // ê°€ì§ˆ ìˆ˜ ì—†ëŠ” ê²½ìš°ëŠ” ì§€ë©´ì— ë–¨ì–´ëœ¨ë¦¬ëŠ” ì²˜ë¦¬ì˜ ìº”ìŠ¬ì€ í•˜ì§€ ì•ŠëŠ”ë‹¤(ë¶€ì • ë°©ì§€)
 				L1World.getInstance()
 						.getInventory(pc.getX(), pc.getY(), pc.getMapId())
 						.storeItem(item);
 			}
 			// S_ServerMessage ss = new S_ServerMessage(403, item.getLogName());
-			// pc.sendPackets(ss); // %0¸¦ ¼Õ¿¡ ³Ö¾ú½À´Ï´Ù.
+			// pc.sendPackets(ss); // %0ë¥¼ ì†ì— ë„£ì—ˆìŠµë‹ˆë‹¤.
 			// ss = null;
 			return true;
 		} else {
@@ -1120,13 +1086,13 @@ public class AntarasRaid {
 	private boolean isNotCancelable(int skillNum) {
 		return skillNum == ENCHANT_WEAPON || skillNum == BLESSED_ARMOR
 				|| skillNum == ABSOLUTE_BARRIER || skillNum == ADVANCE_SPIRIT
-				|| skillNum == SHOCK_STUN || skillNum == ÆÄ¿ö±×¸³
-				|| skillNum == µ¥½ºÆä¶óµµ || skillNum == STATUS_UNDERWATER_BREATH
+				|| skillNum == SHOCK_STUN || skillNum == íŒŒì›Œê·¸ë¦½
+				|| skillNum == ë°ìŠ¤í˜ë¼ë„ || skillNum == STATUS_UNDERWATER_BREATH
 				|| skillNum == SHADOW_FANG || skillNum == REDUCTION_ARMOR
 				|| skillNum == SOLID_CARRIAGE || skillNum == COUNTER_BARRIER
 				|| skillNum == SHADOW_ARMOR || skillNum == ARMOR_BREAK
 				|| skillNum == DRESS_EVASION || skillNum == UNCANNY_DODGE
-				|| skillNum == SCALES_EARTH_DRAGON 
+				|| skillNum == SCALES_EARTH_DRAGON
 				|| skillNum == SCALES_WATER_DRAGON
 				|| skillNum == SCALES_FIRE_DRAGON || skillNum == BOUNCE_ATTACK
 				|| skillNum == IllUSION_OGRE || skillNum == IllUSION_LICH
@@ -1134,7 +1100,7 @@ public class AntarasRaid {
 				|| skillNum == IllUSION_AVATAR;
 	}
 
-	int Äµ½½°­Á¦»èÁ¦[] = { STATUS_CURSE_BARLOG, STATUS_CURSE_YAHEE, STATUS_DRAGONPERL };
+	int ìº”ìŠ¬ê°•ì œì‚­ì œ[] = { STATUS_CURSE_BARLOG, STATUS_CURSE_YAHEE, STATUS_DRAGONPERL };
 
 	public void can(L1PcInstance pc) {
 		if (pc.getResistance().getMr() >= 150) {
@@ -1146,9 +1112,9 @@ public class AntarasRaid {
 			}
 			pc.getSkillEffectTimerSet().removeSkillEffect(skillNum);
 		}
-		for (int i = 0; i < Äµ½½°­Á¦»èÁ¦.length; i++) {
-			if (pc.getSkillEffectTimerSet().hasSkillEffect(Äµ½½°­Á¦»èÁ¦[i]))
-				pc.getSkillEffectTimerSet().removeSkillEffect(Äµ½½°­Á¦»èÁ¦[i]);
+		for (int i = 0; i < ìº”ìŠ¬ê°•ì œì‚­ì œ.length; i++) {
+			if (pc.getSkillEffectTimerSet().hasSkillEffect(ìº”ìŠ¬ê°•ì œì‚­ì œ[i]))
+				pc.getSkillEffectTimerSet().removeSkillEffect(ìº”ìŠ¬ê°•ì œì‚­ì œ[i]);
 		}
 		for (int skillNum = STATUS_BEGIN; skillNum <= STATUS_CANCLEEND; skillNum++) {
 			if (isNotCancelable(skillNum) && !pc.isDead()) {
@@ -1218,7 +1184,7 @@ public class AntarasRaid {
 			pc.sendPackets(new S_SkillIconBlessOfEva(pc.getId(), timeSec), true);
 		}
 		pc.getSkillEffectTimerSet().removeSkillEffect(STATUS_FREEZE);
-		if (pc.is¿¡Æ¾ÀÎÇü()) {
+		if (pc.isì—í‹´ì¸í˜•()) {
 			pc.getMoveState().setMoveSpeed(1);
 			S_SkillHaste sh1 = new S_SkillHaste(pc.getId(), 1, -1);
 			pc.sendPackets(sh1);
@@ -1230,7 +1196,7 @@ public class AntarasRaid {
 	}
 
 	/**
-	 * ÇØ´çÇÏ´Â ÁÂÇ¥·Î ¹æÇâÀ» ÀüÈ¯ÇÒ¶§ »ç¿ë.
+	 * í•´ë‹¹í•˜ëŠ” ì¢Œí‘œë¡œ ë°©í–¥ì„ ì „í™˜í• ë•Œ ì‚¬ìš©.
 	 */
 	public int calcheading(int myx, int myy, int tx, int ty) {
 		if (tx > myx && ty > myy) {
@@ -1252,12 +1218,12 @@ public class AntarasRaid {
 		}
 	}
 
-	/** ¾ÈÅ¸¶ó½º·¹¾î¿¡ ÁøÀÔÇÑ À¯Àú ¼ö¸¦ °¡Á®¿Â´Ù */
+	/** ì•ˆíƒ€ë¼ìŠ¤ë ˆì–´ì— ì§„ì…í•œ ìœ ì € ìˆ˜ë¥¼ ê°€ì ¸ì˜¨ë‹¤ */
 	public int countLairUser() {
 		return _antalist.size();
 	}
 
-	/** ¾ÈÅ¸¶ó½º·¹¾î¿¡ ÁøÀÔÇÒ À¯Àú¸¦ ³Ö´Â´Ù */
+	/** ì•ˆíƒ€ë¼ìŠ¤ë ˆì–´ì— ì§„ì…í•  ìœ ì €ë¥¼ ë„£ëŠ”ë‹¤ */
 	public void addLairUser(L1PcInstance pc) {
 		if (_antalist.contains(pc)) {
 			return;
@@ -1265,27 +1231,27 @@ public class AntarasRaid {
 		_antalist.add(pc);
 	}
 
-	/** ¾ÈÅ¸¶ó½º·¹¾î¿¡ ÁøÀÔÇÒ À¯Àú¸¦ ³Ö´Â´Ù */
+	/** ì•ˆíƒ€ë¼ìŠ¤ë ˆì–´ì— ì§„ì…í•  ìœ ì €ë¥¼ ë„£ëŠ”ë‹¤ */
 	public void clLairUser() {
 		_antalist.clear();
 	}
 
-	/** ¾ÈÅ¸ ¿ÀºêÁ§Æ®¸¦ µ¹·ÁÁØ´Ù */
+	/** ì•ˆíƒ€ ì˜¤ë¸Œì íŠ¸ë¥¼ ëŒë ¤ì¤€ë‹¤ */
 	public L1NpcInstance anta() {
 		return anta;
 	}
 
-	/** ¾ÈÅ¸ ¿ÀºêÁ§Æ®¸¦ ¼¼ÆÃ ÇÑ´Ù. */
+	/** ì•ˆíƒ€ ì˜¤ë¸Œì íŠ¸ë¥¼ ì„¸íŒ… í•œë‹¤. */
 	public void setanta(L1NpcInstance npc) {
 		anta = npc;
 	}
 
-	/** ¾ÈÅ¸¶ó½º°¡ ¶¹´ÂÁö ¾Ë·ÁÁØ´Ù */
+	/** ì•ˆíƒ€ë¼ìŠ¤ê°€ ë–´ëŠ”ì§€ ì•Œë ¤ì¤€ë‹¤ */
 	public boolean isAntaras() {
 		return _isAntaras;
 	}
 
-	/** ¾ÈÅ¸¶ó½º°¡ ¶¹´ÂÁö ¼³Á¤ÇÑ´Ù */
+	/** ì•ˆíƒ€ë¼ìŠ¤ê°€ ë–´ëŠ”ì§€ ì„¤ì •í•œë‹¤ */
 	public void setAntaras(boolean flag) {
 		_isAntaras = flag;
 	}
@@ -1386,68 +1352,68 @@ public class AntarasRaid {
 		}
 	}
 
-	private int ÄÚ¸¶a = 4038003;
-	private int ÄÚ¸¶b = 4038004;
-	private int ÄÚ¸¶c = 4038005;
+	private int ì½”ë§ˆa = 4038003;
+	private int ì½”ë§ˆb = 4038004;
+	private int ì½”ë§ˆc = 4038005;
 
 	private void BossSpawn(int step, int type) {
 		switch (type) {
 		case 1:
 			switch (step) {
 			case 1:
-				L1SpawnUtil.spawn2(32636, 32799, (short) _id, ÄÚ¸¶a, 0, 0, 0);
+				L1SpawnUtil.spawn2(32636, 32799, (short) _id, ì½”ë§ˆa, 0, 0, 0);
 				break;
 			case 2:
-				L1SpawnUtil.spawn2(32655, 32849, (short) _id, ÄÚ¸¶b, 0, 0, 0);
+				L1SpawnUtil.spawn2(32655, 32849, (short) _id, ì½”ë§ˆb, 0, 0, 0);
 				break;
 			case 3:
-				L1SpawnUtil.spawn2(32649, 32921, (short) _id, ÄÚ¸¶c, 0, 0, 0);
+				L1SpawnUtil.spawn2(32649, 32921, (short) _id, ì½”ë§ˆc, 0, 0, 0);
 				break;
 			}
 			break;
 		case 2:
 			switch (step) {
 			case 1:
-				L1SpawnUtil.spawn2(32893, 32607, (short) _id, ÄÚ¸¶a, 0, 0, 0);
+				L1SpawnUtil.spawn2(32893, 32607, (short) _id, ì½”ë§ˆa, 0, 0, 0);
 				break;
 			case 2:
-				L1SpawnUtil.spawn2(32911, 32657, (short) _id, ÄÚ¸¶b, 0, 0, 0);
+				L1SpawnUtil.spawn2(32911, 32657, (short) _id, ì½”ë§ˆb, 0, 0, 0);
 				break;
 			case 3:
-				L1SpawnUtil.spawn2(32905, 32905, (short) _id, ÄÚ¸¶c, 0, 0, 0);
+				L1SpawnUtil.spawn2(32905, 32905, (short) _id, ì½”ë§ˆc, 0, 0, 0);
 				break;
 			}
 			break;
 		case 3:
 			switch (step) {
 			case 1:
-				L1SpawnUtil.spawn2(32892, 32799, (short) _id, ÄÚ¸¶a, 0, 0, 0);
+				L1SpawnUtil.spawn2(32892, 32799, (short) _id, ì½”ë§ˆa, 0, 0, 0);
 				break;
 			case 2:
-				L1SpawnUtil.spawn2(32911, 32849, (short) _id, ÄÚ¸¶b, 0, 0, 0);
+				L1SpawnUtil.spawn2(32911, 32849, (short) _id, ì½”ë§ˆb, 0, 0, 0);
 				break;
 			case 3:
-				L1SpawnUtil.spawn2(32905, 32921, (short) _id, ÄÚ¸¶c, 0, 0, 0);
+				L1SpawnUtil.spawn2(32905, 32921, (short) _id, ì½”ë§ˆc, 0, 0, 0);
 				break;
 			}
 			break;
 		case 4:
 			switch (step) {
 			case 1:
-				L1SpawnUtil.spawn2(32765, 32799, (short) _id, ÄÚ¸¶a, 0, 0, 0);
+				L1SpawnUtil.spawn2(32765, 32799, (short) _id, ì½”ë§ˆa, 0, 0, 0);
 				break;
 			case 2:
-				L1SpawnUtil.spawn2(32783, 32849, (short) _id, ÄÚ¸¶b, 0, 0, 0);
+				L1SpawnUtil.spawn2(32783, 32849, (short) _id, ì½”ë§ˆb, 0, 0, 0);
 				break;
 			case 3:
-				L1SpawnUtil.spawn2(32777, 32921, (short) _id, ÄÚ¸¶c, 0, 0, 0);
+				L1SpawnUtil.spawn2(32777, 32921, (short) _id, ì½”ë§ˆc, 0, 0, 0);
 				break;
 			}
 			break;
 		}
 
 		S_SystemMessage sm = new S_SystemMessage(
-				"³­ÀïÀÌÀÇ ¿ÜÄ§ : ¹®Áö±â°¡ ³ªÅ¸³µ½À´Ï´Ù.! ±×¸¦ ¹°¸®ÃÄ¾ß ÀÌ°÷À» Åë°úÇÒ ¼ö ÀÖ½À´Ï´Ù.");
+				"ë‚œìŸì´ì˜ ì™¸ì¹¨ : ë¬¸ì§€ê¸°ê°€ ë‚˜íƒ€ë‚¬ìŠµë‹ˆë‹¤.! ê·¸ë¥¼ ë¬¼ë¦¬ì³ì•¼ ì´ê³³ì„ í†µê³¼í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤.");
 		// for(L1PcInstance pc : getParty(type).getMembers()){
 		for (L1PcInstance pc : getMembers()) {
 			if (pc.getMapId() != _id) {
@@ -1472,7 +1438,7 @@ public class AntarasRaid {
 		MonList.clear();
 	}
 
-	/** ÆÄÆ¼ °ü·Ã */
+	/** íŒŒí‹° ê´€ë ¨ */
 	/*
 	 * public L1Party getParty(int type){ switch (type) { case 1:return
 	 * Party1;case 2:return Party2; case 3:return Party3;case 4:return Party4; }
@@ -1505,7 +1471,7 @@ public class AntarasRaid {
 	public void addMember(L1PcInstance pc) {
 		synchronized (_list) {
 			if (!_list.contains(pc)) {
-				// System.out.println("Ãß°¡ > "+pc.getName());
+				// System.out.println("ì¶”ê°€ > "+pc.getName());
 				_list.add(pc);
 			}
 		}
@@ -1514,7 +1480,7 @@ public class AntarasRaid {
 	public void removeMember(L1PcInstance pc) {
 		synchronized (_list) {
 			if (_list.contains(pc)) {
-				// System.out.println("»èÁ¦ > "+pc.getName());
+				// System.out.println("ì‚­ì œ > "+pc.getName());
 				_list.remove(pc);
 			}
 		}
