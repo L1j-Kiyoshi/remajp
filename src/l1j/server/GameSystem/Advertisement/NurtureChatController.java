@@ -109,7 +109,7 @@ public class NurtureChatController implements Runnable {
 				pc.getNearObjects().removeAllKnownObjects();
 			}
 			on = false;
-			gm.sendPackets(new S_SystemMessage("育成チャットロボットが終了しました。"), true);
+			gm.sendPackets(new S_SystemMessage("育成チャットロボットが終了しました"), true);
 			return;
 		}
 	}
