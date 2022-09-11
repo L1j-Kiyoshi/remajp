@@ -66,7 +66,7 @@ public class NurtureChatController implements Runnable {
 		public void run() {
 			try {
 				S_ChatPacket s_chatpacket = new S_ChatPacket(bot,
-						"\\\\f=f=«Ù«È«Ê«àáôÔÑëÀà÷ NO.1 ëÀà÷Ú¦ªÎ«««È«¯ LEVEL79 ª´Ö§Õ©ª¯ªÀªµª¤!",
+						"\\\\f=f=ãƒ™ãƒˆãƒŠãƒ å—å‹•è‚²æˆ NO.1 è‚²æˆé–€ã®ã‚«ãƒˆã‚¯ LEVEL79 ã”é€£çµ¡ãã ã•ã„!",
 						Opcodes.S_SAY, 0);
 				for (L1PcInstance listner : L1World.getInstance()
 						.getRecognizePlayer(bot)) {
@@ -83,7 +83,7 @@ public class NurtureChatController implements Runnable {
 	public void OnOff(L1PcInstance gm, boolean ck) {
 		if (ck) {
 			if (L1World.getInstance().findObject(list.get(0).getId()) != null) {
-				gm.sendPackets(new S_SystemMessage("ÇöÀç °¡µ¿ÁßÀÔ´Ï´Ù."), true);
+				gm.sendPackets(new S_SystemMessage("ç¾åœ¨ç¨¼åƒä¸­ã§ã™."), true);
 				return;
 			}
 			for (L1RobotInstance pc : list) {
@@ -91,11 +91,11 @@ public class NurtureChatController implements Runnable {
 				L1World.getInstance().addVisibleObject(pc);
 			}
 			on = true;
-			gm.sendPackets(new S_SystemMessage("À°¼ºÃ¤ÆÃ ·Îº¿ÀÌ °¡µ¿µÇ¾ú½À´Ï´Ù."), true);
+			gm.sendPackets(new S_SystemMessage("è‚²æˆãƒãƒ£ãƒƒãƒˆãƒ­ãƒœãƒƒãƒˆãŒç¨¼åƒã—ã¾ã—ãŸ."), true);
 			return;
 		} else {
 			if (L1World.getInstance().findObject(list.get(0).getId()) == null) {
-				gm.sendPackets(new S_SystemMessage("ÇöÀç Á¾·á µÇ¾îÀÖ´Â »óÅÂÀÔ´Ï´Ù."), true);
+				gm.sendPackets(new S_SystemMessage("ç¾åœ¨çµ‚äº†ã—ã¦ã„ã‚‹çŠ¶æ…‹ã§ã™ã€‚"), true);
 				return;
 			}
 			for (L1RobotInstance pc : list) {
@@ -109,12 +109,12 @@ public class NurtureChatController implements Runnable {
 				pc.getNearObjects().removeAllKnownObjects();
 			}
 			on = false;
-			gm.sendPackets(new S_SystemMessage("À°¼ºÃ¤ÆÃ ·Îº¿ÀÌ Á¾·áµÇ¾ú½À´Ï´Ù."), true);
+			gm.sendPackets(new S_SystemMessage("è‚²æˆãƒãƒ£ãƒƒãƒˆãƒ­ãƒœãƒƒãƒˆãŒçµ‚äº†ã—ã¾ã—ãŸã€‚"), true);
 			return;
 		}
 	}
 
-	// 1¹øÂ°-½ÃÀå 2¹øÂ°-¸»¼¶ 3¹øÂ°ºÎÅÍ-4¹ø¸Ê
+	// 1ç•ªç›®-å¸‚å ´2ç•ªç›®-ãƒãƒ«ã‚µãƒ 3ç•ªç›®ã‹ã‚‰-4ç•ªãƒãƒƒãƒ—
 	private static int[] x = { 32804, 32579, 33058, 33429, 32614, 32738, 33076,
 			32618, 33618, 33719, 34059, 33967, 33935, 33537 };
 	private static int[] y = { 32927, 32930, 32782, 32812, 32737, 32445, 33393,
@@ -126,7 +126,7 @@ public class NurtureChatController implements Runnable {
 			L1RobotInstance newPc = new L1RobotInstance();
 			newPc.setId(ObjectIdFactory.getInstance().nextId());
 			newPc.setAccountName("");
-			String name = "¼öµ¿À°¼º";
+			String name = "æ‰‹å‹•è‚²æˆ";
 			if (i < 9)
 				name += "0" + i;
 			else
@@ -142,7 +142,7 @@ public class NurtureChatController implements Runnable {
 			newPc.addBaseMaxMp((short) 100);
 			newPc.setCurrentMp(100);
 			newPc.getResistance().addMr(150);
-			newPc.setTitle("Ä«Åå LEVEL79");
+			newPc.setTitle("ã‚«ãƒˆã‚¯ LEVEL79");
 			newPc.getAbility().setBaseStr(18);
 			newPc.getAbility().setStr(35);
 			newPc.getAbility().setBaseCon(18);
